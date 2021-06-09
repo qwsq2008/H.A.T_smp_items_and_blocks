@@ -100,15 +100,6 @@
       "registry_name": "hatsmp"
     },
     {
-      "name": "Hatsm",
-      "type": "code",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": true,
-      "ids": {},
-      "registry_name": "hatsm"
-    },
-    {
       "name": "EnderConcretePowder",
       "type": "block",
       "sortid": 10,
