@@ -1,0 +1,58 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "db",
+    "enableBody": true,
+    "textureBody": "dh",
+    "enableLeggings": true,
+    "textureLeggings": "dl",
+    "enableBoots": true,
+    "textureBoots": "dbo",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "da_temp",
+    "helmetName": "Dragon Helmet",
+    "bodyName": "Dragon chestplate",
+    "leggingsName": "Dragon Leggings",
+    "bootsName": "Dragon Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 1000,
+    "damageValueHelmet": 5,
+    "damageValueBody": 9,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 5,
+    "enchantability": 100,
+    "toughness": 3.0,
+    "knockbackResistance": 0.2,
+    "equipSound": {
+      "value": "entity.enderdragon.growl"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Dragonpaste"
+      }
+    ]
+  }
+}

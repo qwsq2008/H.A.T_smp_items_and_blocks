@@ -1,0 +1,128 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Dragoninfuser",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragoninfuser"
+    },
+    {
+      "name": "Di",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "di"
+    },
+    {
+      "name": "Digui",
+      "type": "gui",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "digui"
+    },
+    {
+      "name": "Dragonpaste",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonpaste"
+    },
+    {
+      "name": "Dp",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dp"
+    },
+    {
+      "name": "Dragon",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dragonarmor",
+      "type": "armor",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonarmor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.hat_smp_custom_items_and_blocks.dragonarmor_chestplate": "Dragon chestplate",
+      "block.hat_smp_custom_items_and_blocks.dragoninfuser": "Draconic Smithing Table",
+      "item.hat_smp_custom_items_and_blocks.dragonpaste": "Dragonpaste",
+      "item.hat_smp_custom_items_and_blocks.dragonarmor_helmet": "Dragon Helmet",
+      "item.hat_smp_custom_items_and_blocks.dragonarmor_boots": "Dragon Boots",
+      "item.hat_smp_custom_items_and_blocks.dragonarmor_leggings": "Dragon Leggings"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "hat_smp_custom_items_and_blocks",
+    "modName": "H.A.T smp custom items and blocks",
+    "version": "1.0.0",
+    "author": "quinn, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.hatsmpcustomitemsandblocks",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}
