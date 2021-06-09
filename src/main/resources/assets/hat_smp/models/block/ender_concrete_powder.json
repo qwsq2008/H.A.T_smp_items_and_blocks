@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hat_smp:blocks/ender_concrete_powder",
+    "up": "hat_smp:blocks/ender_concrete_powder",
+    "north": "hat_smp:blocks/ender_concrete_powder",
+    "east": "hat_smp:blocks/ender_concrete_powder",
+    "south": "hat_smp:blocks/ender_concrete_powder",
+    "west": "hat_smp:blocks/ender_concrete_powder",
+    "particle": "hat_smp:blocks/ender_concrete_powder"
+  }
+}
