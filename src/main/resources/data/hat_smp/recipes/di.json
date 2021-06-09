@@ -1,5 +1,5 @@
 {
-  "group": "hat_smp_custom_items_and_blocks",
+  "group": "hat_smp",
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
@@ -8,13 +8,13 @@
   ],
   "key": {
     "0": {
-      "item": "hat_smp_custom_items_and_blocks:dragonpaste"
+      "item": "hat_smp:dragonpaste"
     },
     "1": {
-      "item": "hat_smp_custom_items_and_blocks:dragonpaste"
+      "item": "hat_smp:dragonpaste"
     },
     "2": {
-      "item": "hat_smp_custom_items_and_blocks:dragonpaste"
+      "item": "hat_smp:dragonpaste"
     },
     "3": {
       "item": "minecraft:popped_chorus_fruit"
@@ -23,7 +23,7 @@
       "item": "minecraft:smithing_table"
     },
     "5": {
-      "item": "hat_smp_custom_items_and_blocks:dragonpaste"
+      "item": "minecraft:popped_chorus_fruit"
     },
     "6": {
       "item": "minecraft:netherite_ingot"
@@ -36,7 +36,7 @@
     }
   },
   "result": {
-    "item": "hat_smp_custom_items_and_blocks:dragoninfuser",
+    "item": "hat_smp:dragoninfuser",
     "count": 1
   }
 }

@@ -14,7 +14,7 @@ import net.minecraft.client.gui.widget.button.Button;
 import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.hatsmpcustomitemsandblocks.HatSmpCustomItemsAndBlocksMod;
+import net.mcreator.hatsmpcustomitemsandblocks.HatSmpMod;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.matrix.MatrixStack;
@@ -34,7 +34,7 @@ public class DiguiGuiWindow extends ContainerScreen<DiguiGui.GuiContainerMod> {
 		this.xSize = 176;
 		this.ySize = 166;
 	}
-	private static final ResourceLocation texture = new ResourceLocation("hat_smp_custom_items_and_blocks:textures/digui.png");
+	private static final ResourceLocation texture = new ResourceLocation("hat_smp:textures/digui.png");
 	@Override
 	public void render(MatrixStack ms, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(ms);
@@ -70,7 +70,7 @@ public class DiguiGuiWindow extends ContainerScreen<DiguiGui.GuiContainerMod> {
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "Draconic Smithing Table", 2, 3, -6750055);
+		this.font.drawString(ms, "Draconic Smithing Table", 2, 3, -10157979);
 	}
 
 	@Override
@@ -83,9 +83,9 @@ public class DiguiGuiWindow extends ContainerScreen<DiguiGui.GuiContainerMod> {
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 43, this.guiTop + 32, 50, 20, new StringTextComponent("craft"), e -> {
+		this.addButton(new Button(this.guiLeft + 56, this.guiTop + 33, 50, 20, new StringTextComponent("Craft"), e -> {
 			if (true) {
-				HatSmpCustomItemsAndBlocksMod.PACKET_HANDLER.sendToServer(new DiguiGui.ButtonPressedMessage(0, x, y, z));
+				HatSmpMod.PACKET_HANDLER.sendToServer(new DiguiGui.ButtonPressedMessage(0, x, y, z));
 				DiguiGui.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));

@@ -3,10 +3,13 @@ package net.mcreator.hatsmpcustomitemsandblocks.block;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.network.NetworkHooks;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.World;
+import net.minecraft.world.IBlockReader;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Hand;
@@ -14,7 +17,6 @@ import net.minecraft.util.ActionResultType;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.inventory.container.INamedContainerProvider;
@@ -28,32 +30,39 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.hatsmpcustomitemsandblocks.itemgroup.HATSMPItemGroup;
 import net.mcreator.hatsmpcustomitemsandblocks.gui.DiguiGui;
-import net.mcreator.hatsmpcustomitemsandblocks.HatSmpCustomItemsAndBlocksModElements;
+import net.mcreator.hatsmpcustomitemsandblocks.HatSmpModElements;
 
 import java.util.List;
 import java.util.Collections;
 
 import io.netty.buffer.Unpooled;
 
-@HatSmpCustomItemsAndBlocksModElements.ModElement.Tag
-public class DragoninfuserBlock extends HatSmpCustomItemsAndBlocksModElements.ModElement {
-	@ObjectHolder("hat_smp_custom_items_and_blocks:dragoninfuser")
+@HatSmpModElements.ModElement.Tag
+public class DragoninfuserBlock extends HatSmpModElements.ModElement {
+	@ObjectHolder("hat_smp:dragoninfuser")
 	public static final Block block = null;
-	public DragoninfuserBlock(HatSmpCustomItemsAndBlocksModElements instance) {
+	public DragoninfuserBlock(HatSmpModElements instance) {
 		super(instance, 1);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(HATSMPItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).tickRandomly());
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 1).harvestLevel(3)
+					.harvestTool(ToolType.AXE).setRequiresTool().tickRandomly().setNeedsPostProcessing((bs, br, bp) -> true)
+					.setEmmisiveRendering((bs, br, bp) -> true));
 			setRegistryName("dragoninfuser");
+		}
+
+		@Override
+		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
+			return new ItemStack(DragoninfuserBlock.block, (int) (1));
 		}
 
 		@Override

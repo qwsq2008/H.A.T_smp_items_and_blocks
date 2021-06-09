@@ -7,11 +7,11 @@
     "textureLeft": "draconic_smithing_table_side",
     "textureFront": "draconic_smithing_table_front",
     "textureRight": "draconic_smithing_table_side",
-    "textureBack": "draconic_smithing_table_side",
+    "textureBack": "draconic_smithing_table_front",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -39,9 +39,9 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "CUSTOM:HATSMP"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "axe",
     "customDrop": {
       "value": ""
     },
@@ -52,14 +52,14 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "IRON"
     },
     "tickRate": 3,
     "tickRandomly": true,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:Dragoninfuser"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -72,11 +72,11 @@
     "reactionToPushing": "BLOCK",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "METAL"
     },
-    "luminance": 0,
+    "luminance": 1,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 3,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

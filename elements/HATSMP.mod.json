@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "HAT SMP",
+    "icon": {
+      "value": "CUSTOM:Dragoninfuser"
+    },
+    "showSearch": true
+  }
+}

@@ -10,19 +10,19 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.SKULL#5"
+      },
+      {
+        "value": "Items.IRON_SWORD"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.IRON_SHOVEL"
       },
       {
-        "value": ""
-      },
-      {
-        "value": "Blocks.SKULL#5"
+        "value": "Items.BOWL"
       },
       {
         "value": ""

@@ -37,29 +37,29 @@ import java.util.ArrayList;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Retention;
 
-public class HatSmpCustomItemsAndBlocksModElements {
+public class HatSmpModElements {
 	public final List<ModElement> elements = new ArrayList<>();
 	public final List<Supplier<Block>> blocks = new ArrayList<>();
 	public final List<Supplier<Item>> items = new ArrayList<>();
 	public final List<Supplier<EntityType<?>>> entities = new ArrayList<>();
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
-	public HatSmpCustomItemsAndBlocksModElements() {
+	public HatSmpModElements() {
 		try {
-			ModFileScanData modFileInfo = ModList.get().getModFileById("hat_smp_custom_items_and_blocks").getFile().getScanResult();
+			ModFileScanData modFileInfo = ModList.get().getModFileById("hat_smp").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
 			for (ModFileScanData.AnnotationData annotationData : annotations) {
 				if (annotationData.getAnnotationType().getClassName().equals(ModElement.Tag.class.getName())) {
 					Class<?> clazz = Class.forName(annotationData.getClassType().getClassName());
-					if (clazz.getSuperclass() == HatSmpCustomItemsAndBlocksModElements.ModElement.class)
-						elements.add((HatSmpCustomItemsAndBlocksModElements.ModElement) clazz.getConstructor(this.getClass()).newInstance(this));
+					if (clazz.getSuperclass() == HatSmpModElements.ModElement.class)
+						elements.add((HatSmpModElements.ModElement) clazz.getConstructor(this.getClass()).newInstance(this));
 				}
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		Collections.sort(elements);
-		elements.forEach(HatSmpCustomItemsAndBlocksModElements.ModElement::initElements);
+		elements.forEach(HatSmpModElements.ModElement::initElements);
 	}
 
 	public void registerSounds(RegistryEvent.Register<net.minecraft.util.SoundEvent> event) {
@@ -69,7 +69,7 @@ public class HatSmpCustomItemsAndBlocksModElements {
 	private int messageID = 0;
 	public <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, PacketBuffer> encoder, Function<PacketBuffer, T> decoder,
 			BiConsumer<T, Supplier<NetworkEvent.Context>> messageConsumer) {
-		HatSmpCustomItemsAndBlocksMod.PACKET_HANDLER.registerMessage(messageID, messageType, encoder, decoder, messageConsumer);
+		HatSmpMod.PACKET_HANDLER.registerMessage(messageID, messageType, encoder, decoder, messageConsumer);
 		messageID++;
 	}
 
@@ -96,9 +96,9 @@ public class HatSmpCustomItemsAndBlocksModElements {
 		@Retention(RetentionPolicy.RUNTIME)
 		public @interface Tag {
 		}
-		protected final HatSmpCustomItemsAndBlocksModElements elements;
+		protected final HatSmpModElements elements;
 		protected final int sortid;
-		public ModElement(HatSmpCustomItemsAndBlocksModElements elements, int sortid) {
+		public ModElement(HatSmpModElements elements, int sortid) {
 			this.elements = elements;
 			this.sortid = sortid;
 		}

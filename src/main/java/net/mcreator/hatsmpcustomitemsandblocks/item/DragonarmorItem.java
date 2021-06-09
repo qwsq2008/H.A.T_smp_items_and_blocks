@@ -16,19 +16,19 @@ import net.minecraft.item.ArmorItem;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.hatsmpcustomitemsandblocks.HatSmpCustomItemsAndBlocksModElements;
+import net.mcreator.hatsmpcustomitemsandblocks.HatSmpModElements;
 
-@HatSmpCustomItemsAndBlocksModElements.ModElement.Tag
-public class DragonarmorItem extends HatSmpCustomItemsAndBlocksModElements.ModElement {
-	@ObjectHolder("hat_smp_custom_items_and_blocks:dragonarmor_helmet")
+@HatSmpModElements.ModElement.Tag
+public class DragonarmorItem extends HatSmpModElements.ModElement {
+	@ObjectHolder("hat_smp:dragonarmor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("hat_smp_custom_items_and_blocks:dragonarmor_chestplate")
+	@ObjectHolder("hat_smp:dragonarmor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("hat_smp_custom_items_and_blocks:dragonarmor_leggings")
+	@ObjectHolder("hat_smp:dragonarmor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("hat_smp_custom_items_and_blocks:dragonarmor_boots")
+	@ObjectHolder("hat_smp:dragonarmor_boots")
 	public static final Item boots = null;
-	public DragonarmorItem(HatSmpCustomItemsAndBlocksModElements instance) {
+	public DragonarmorItem(HatSmpModElements instance) {
 		super(instance, 7);
 	}
 
@@ -79,25 +79,25 @@ public class DragonarmorItem extends HatSmpCustomItemsAndBlocksModElements.ModEl
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "hat_smp_custom_items_and_blocks:textures/models/armor/da_temp_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "hat_smp:textures/models/armor/da_temp_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("dragonarmor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "hat_smp_custom_items_and_blocks:textures/models/armor/da_temp_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "hat_smp:textures/models/armor/da_temp_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("dragonarmor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "hat_smp_custom_items_and_blocks:textures/models/armor/da_temp_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "hat_smp:textures/models/armor/da_temp_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("dragonarmor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "hat_smp_custom_items_and_blocks:textures/models/armor/da_temp_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "hat_smp:textures/models/armor/da_temp_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("dragonarmor_boots"));
 	}

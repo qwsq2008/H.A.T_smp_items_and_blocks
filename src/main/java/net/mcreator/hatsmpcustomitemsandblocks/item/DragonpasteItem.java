@@ -5,19 +5,25 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.hatsmpcustomitemsandblocks.HatSmpCustomItemsAndBlocksModElements;
+import net.mcreator.hatsmpcustomitemsandblocks.itemgroup.HATSMPItemGroup;
+import net.mcreator.hatsmpcustomitemsandblocks.HatSmpModElements;
 
-@HatSmpCustomItemsAndBlocksModElements.ModElement.Tag
-public class DragonpasteItem extends HatSmpCustomItemsAndBlocksModElements.ModElement {
-	@ObjectHolder("hat_smp_custom_items_and_blocks:dragonpaste")
+import java.util.List;
+
+@HatSmpModElements.ModElement.Tag
+public class DragonpasteItem extends HatSmpModElements.ModElement {
+	@ObjectHolder("hat_smp:dragonpaste")
 	public static final Item block = null;
-	public DragonpasteItem(HatSmpCustomItemsAndBlocksModElements instance) {
+	public DragonpasteItem(HatSmpModElements instance) {
 		super(instance, 4);
 	}
 
@@ -27,7 +33,7 @@ public class DragonpasteItem extends HatSmpCustomItemsAndBlocksModElements.ModEl
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(HATSMPItemGroup.tab).maxStackSize(64).isImmuneToFire().rarity(Rarity.COMMON));
 			setRegistryName("dragonpaste");
 		}
 
@@ -50,6 +56,12 @@ public class DragonpasteItem extends HatSmpCustomItemsAndBlocksModElements.ModEl
 		@OnlyIn(Dist.CLIENT)
 		public boolean hasEffect(ItemStack itemstack) {
 			return true;
+		}
+
+		@Override
+		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
+			super.addInformation(itemstack, world, list, flag);
+			list.add(new StringTextComponent("Seems like it's hardening in the bowl..."));
 		}
 	}
 }

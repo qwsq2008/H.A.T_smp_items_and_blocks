@@ -29,18 +29,18 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
 import net.mcreator.hatsmpcustomitemsandblocks.procedures.DragonProcedure;
-import net.mcreator.hatsmpcustomitemsandblocks.HatSmpCustomItemsAndBlocksModElements;
-import net.mcreator.hatsmpcustomitemsandblocks.HatSmpCustomItemsAndBlocksMod;
+import net.mcreator.hatsmpcustomitemsandblocks.HatSmpModElements;
+import net.mcreator.hatsmpcustomitemsandblocks.HatSmpMod;
 
 import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
-@HatSmpCustomItemsAndBlocksModElements.ModElement.Tag
-public class DiguiGui extends HatSmpCustomItemsAndBlocksModElements.ModElement {
+@HatSmpModElements.ModElement.Tag
+public class DiguiGui extends HatSmpModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public DiguiGui(HatSmpCustomItemsAndBlocksModElements instance) {
+	public DiguiGui(HatSmpModElements instance) {
 		super(instance, 3);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
@@ -114,13 +114,11 @@ public class DiguiGui extends HatSmpCustomItemsAndBlocksModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 24, 53) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 24, 14) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 24, 18) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 24, 60) {
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 4, 36) {
-			}));
-			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 99, 35) {
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 132, 35) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -151,18 +149,18 @@ public class DiguiGui extends HatSmpCustomItemsAndBlocksModElements.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 4) {
-					if (!this.mergeItemStack(itemstack1, 4, this.inventorySlots.size(), true)) {
+				if (index < 3) {
+					if (!this.mergeItemStack(itemstack1, 3, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 4, false)) {
-					if (index < 4 + 27) {
-						if (!this.mergeItemStack(itemstack1, 4 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 3, false)) {
+					if (index < 3 + 27) {
+						if (!this.mergeItemStack(itemstack1, 3 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 4, 4 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 3, 3 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -281,7 +279,7 @@ public class DiguiGui extends HatSmpCustomItemsAndBlocksModElements.ModElement {
 
 		private void slotChanged(int slotid, int ctype, int meta) {
 			if (this.world != null && this.world.isRemote()) {
-				HatSmpCustomItemsAndBlocksMod.PACKET_HANDLER.sendToServer(new GUISlotChangedMessage(slotid, x, y, z, ctype, meta));
+				HatSmpMod.PACKET_HANDLER.sendToServer(new GUISlotChangedMessage(slotid, x, y, z, ctype, meta));
 				handleSlotAction(entity, slotid, ctype, meta, x, y, z);
 			}
 		}

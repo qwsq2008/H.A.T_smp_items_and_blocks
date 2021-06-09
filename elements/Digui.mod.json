@@ -20,30 +20,12 @@
             "value": -39169,
             "falpha": 0.0
           },
-          "id": 0,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "name": "Slot #0",
-          "x": 149,
-          "y": 89
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "color": {
-            "value": -39169,
-            "falpha": 0.0
-          },
           "id": 1,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #1",
           "x": 149,
-          "y": 54
+          "y": 50
         }
       },
       {
@@ -60,8 +42,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #2",
-          "x": 129,
-          "y": 72
+          "x": 149,
+          "y": 96
         }
       },
       {
@@ -75,22 +57,22 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #3",
-          "x": 224,
+          "x": 257,
           "y": 71
         }
       },
       {
         "type": "button",
         "data": {
-          "text": "craft",
+          "text": "Craft",
           "onClick": {
             "name": "Dragon"
           },
           "width": 50,
           "height": 20,
-          "name": "craft",
-          "x": 169,
-          "y": 69
+          "name": "Craft",
+          "x": 182,
+          "y": 70
         }
       },
       {
@@ -98,7 +80,7 @@
         "data": {
           "text": "Draconic Smithing Table",
           "color": {
-            "value": -6750055,
+            "value": -10157979,
             "falpha": 0.0
           },
           "name": "Draconic Smithing Table",
