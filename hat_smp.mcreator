@@ -98,15 +98,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hatsmp"
-    },
-    {
-      "name": "Hatsm",
-      "type": "code",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": true,
-      "ids": {},
-      "registry_name": "hatsm"
     }
   ],
   "variable_elements": [],

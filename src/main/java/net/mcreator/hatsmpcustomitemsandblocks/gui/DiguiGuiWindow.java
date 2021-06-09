@@ -83,7 +83,7 @@ public class DiguiGuiWindow extends ContainerScreen<DiguiGui.GuiContainerMod> {
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 56, this.guiTop + 33, 50, 20, new StringTextComponent("Craft"), e -> {
+		this.addButton(new Button(this.guiLeft + 58, this.guiTop + 34, 50, 20, new StringTextComponent("craft"), e -> {
 			if (true) {
 				HatSmpMod.PACKET_HANDLER.sendToServer(new DiguiGui.ButtonPressedMessage(0, x, y, z));
 				DiguiGui.handleButtonAction(entity, 0, x, y, z);

@@ -62,20 +62,6 @@
         }
       },
       {
-        "type": "button",
-        "data": {
-          "text": "Craft",
-          "onClick": {
-            "name": "Dragon"
-          },
-          "width": 50,
-          "height": 20,
-          "name": "Craft",
-          "x": 182,
-          "y": 70
-        }
-      },
-      {
         "type": "label",
         "data": {
           "text": "Draconic Smithing Table",
@@ -86,6 +72,20 @@
           "name": "Draconic Smithing Table",
           "x": 128,
           "y": 40
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "craft",
+          "onClick": {
+            "name": "Dragon"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "craft",
+          "x": 184,
+          "y": 71
         }
       }
     ]
