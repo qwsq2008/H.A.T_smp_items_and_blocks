@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "hat_smp:block/ender_concrete_powder"
+    }
+  }
+}
