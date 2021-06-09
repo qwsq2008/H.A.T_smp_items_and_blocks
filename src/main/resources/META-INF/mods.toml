@@ -8,7 +8,7 @@ version="1.0.0"
 displayName="H.A.T smp custom items and blocks"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="quinn, MCreator"
+authors="quinn, FiveNights2161, MCreator"
 
 [[dependencies.hat_smp]]
     modId="minecraft"

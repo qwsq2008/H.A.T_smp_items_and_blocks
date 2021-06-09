@@ -50,3 +50,4 @@ public class Hatsm extends HatSmpModElements.ModElement {
 	public void clientLoad(FMLClientSetupEvent event) {
 	}
 }
+
