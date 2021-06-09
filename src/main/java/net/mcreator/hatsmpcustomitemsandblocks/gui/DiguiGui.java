@@ -116,9 +116,9 @@ public class DiguiGui extends HatSmpModElements.ModElement {
 			}
 			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 24, 14) {
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 24, 60) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 24, 64) {
 			}));
-			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 132, 35) {
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 143, 38) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;

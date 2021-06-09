@@ -51,6 +51,10 @@ public class DiguiGuiWindow extends ContainerScreen<DiguiGui.GuiContainerMod> {
 		int k = (this.width - this.xSize) / 2;
 		int l = (this.height - this.ySize) / 2;
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("hat_smp:textures/combine_arrow.png"));
+		this.blit(ms, this.guiLeft + 25, this.guiTop + 31, 0, 0, 32, 32, 32, 32);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("hat_smp:textures/arrow_forward.png"));
+		this.blit(ms, this.guiLeft + 109, this.guiTop + 30, 0, 0, 32, 32, 32, 32);
 		RenderSystem.disableBlend();
 	}
 
@@ -83,7 +87,7 @@ public class DiguiGuiWindow extends ContainerScreen<DiguiGui.GuiContainerMod> {
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 56, this.guiTop + 33, 50, 20, new StringTextComponent("Craft"), e -> {
+		this.addButton(new Button(this.guiLeft + 60, this.guiTop + 35, 50, 20, new StringTextComponent("Craft"), e -> {
 			if (true) {
 				HatSmpMod.PACKET_HANDLER.sendToServer(new DiguiGui.ButtonPressedMessage(0, x, y, z));
 				DiguiGui.handleButtonAction(entity, 0, x, y, z);

@@ -30,11 +30,20 @@
         "My": 16.0,
         "Mz": 16.0,
         "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
       }
     ],
     "name": "Ender Concrete Powder",
     "specialInfo": [
-      "Seems powerful... but how?"
+      "Seems powerful... but how so?"
     ],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -43,13 +52,13 @@
     "creativeTab": {
       "value": "CUSTOM:HATSMP"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "shovel",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:EnderConcretePowder"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "enchantPowerBonus": 0.0,
+    "enchantPowerBonus": 4.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
     "lightOpacity": 255,
@@ -59,12 +68,16 @@
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "PINK",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:EnderConcretePowder"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "beaconColorModifier": {
+      "value": -3407668,
+      "falpha": 0.0
+    },
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
@@ -74,14 +87,14 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "CLOTH"
+      "value": "GROUND"
     },
     "luminance": 1,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "TOWN_AURA"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,

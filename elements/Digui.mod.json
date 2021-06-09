@@ -43,7 +43,7 @@
           "dropItemsWhenNotBound": true,
           "name": "Slot #2",
           "x": 149,
-          "y": 96
+          "y": 100
         }
       },
       {
@@ -57,8 +57,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #3",
-          "x": 257,
-          "y": 71
+          "x": 268,
+          "y": 74
         }
       },
       {
@@ -71,8 +71,8 @@
           "width": 50,
           "height": 20,
           "name": "Craft",
-          "x": 182,
-          "y": 70
+          "x": 186,
+          "y": 72
         }
       },
       {
@@ -86,6 +86,26 @@
           "name": "Draconic Smithing Table",
           "x": 128,
           "y": 40
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "combine_arrow.png",
+          "use1Xscale": true,
+          "name": "combine_arrow.png",
+          "x": 151,
+          "y": 68
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_forward.png",
+          "use1Xscale": true,
+          "name": "arrow_forward.png",
+          "x": 235,
+          "y": 67
         }
       }
     ]
