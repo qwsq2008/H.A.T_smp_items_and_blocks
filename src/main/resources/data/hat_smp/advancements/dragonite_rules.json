@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "hat_smp:dragonarmor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.dragonite_rules.title"
+    },
+    "description": {
+      "translate": "advancements.dragonite_rules.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "dragonite_rules": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "hat_smp:deleted_mod_element"
+}
