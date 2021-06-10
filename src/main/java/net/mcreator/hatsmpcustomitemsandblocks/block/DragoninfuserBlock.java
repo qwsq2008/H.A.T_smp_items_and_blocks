@@ -41,7 +41,7 @@ import io.netty.buffer.Unpooled;
 
 @HatSmpModElements.ModElement.Tag
 public class DragoninfuserBlock extends HatSmpModElements.ModElement {
-	@ObjectHolder("hat_smp:dragoninfuser")
+	@ObjectHolder("hat_smp:dragonic_smithing_table")
 	public static final Block block = null;
 	public DragoninfuserBlock(HatSmpModElements instance) {
 		super(instance, 1);
@@ -57,7 +57,7 @@ public class DragoninfuserBlock extends HatSmpModElements.ModElement {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 1).harvestLevel(3)
 					.harvestTool(ToolType.AXE).setRequiresTool().tickRandomly().setNeedsPostProcessing((bs, br, bp) -> true)
 					.setEmmisiveRendering((bs, br, bp) -> true));
-			setRegistryName("dragoninfuser");
+			setRegistryName("dragonic_smithing_table");
 		}
 
 		@Override

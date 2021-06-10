@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hat_smp:blocks/draconic_smithing_table_bottom",
+    "up": "hat_smp:blocks/draconic_smithing_table_top",
+    "north": "hat_smp:blocks/draconic_smithing_table_front",
+    "east": "hat_smp:blocks/draconic_smithing_table_side",
+    "south": "hat_smp:blocks/draconic_smithing_table_front",
+    "west": "hat_smp:blocks/draconic_smithing_table_side",
+    "particle": "hat_smp:blocks/draconic_smithing_table_bottom"
+  }
+}
