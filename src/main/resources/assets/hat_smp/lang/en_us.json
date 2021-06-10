@@ -1,8 +1,8 @@
 {
   "block.hat_smp.ender_concrete_powder": "Ender Concrete Powder",
   "item.hat_smp.dragon_sword": "Dragon Sword",
-  "block.hat_smp.dragoninfuser": "Draconic Smithing Table",
   "item.hat_smp.dragonarmor_chestplate": "Dragon Chestplate",
+  "block.hat_smp.dragoninfuser": "Draconic Smithing Table",
   "item.hat_smp_custom_items_and_blocks.dragonpaste": "Dragonpaste",
   "item.hat_smp.dragonarmor_boots": "Dragon Boots",
   "item.hat_smp_custom_items_and_blocks.dragonarmor_boots": "Dragon Boots",
@@ -14,5 +14,6 @@
   "itemGroup.tabhatsmp": "HAT SMP",
   "item.hat_smp.dragonarmor_leggings": "Dragon Leggings",
   "item.hat_smp_custom_items_and_blocks.dragonarmor_helmet": "Dragon Helmet",
-  "item.hat_smp.dragonarmor_helmet": "Dragon Helmet"
+  "item.hat_smp.dragonarmor_helmet": "Dragon Helmet",
+  "item.hat_smp.dragon_bowl": "Dragon Bowl"
 }
