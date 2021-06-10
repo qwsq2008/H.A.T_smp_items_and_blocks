@@ -1,11 +1,29 @@
 package net.mcreator.hatsmpcustomitemsandblocks.procedures;
 
+import net.minecraftforge.items.IItemHandler;
+import net.minecraftforge.items.CapabilityItemHandler;
+
+import net.minecraft.world.IWorld;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.server.MinecraftServer;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.Entity;
+import net.minecraft.advancements.AdvancementProgress;
+import net.minecraft.advancements.Advancement;
+
+import net.mcreator.hatsmpcustomitemsandblocks.item.DragonarmorItem;
+import net.mcreator.hatsmpcustomitemsandblocks.HatSmpModElements;
+import net.mcreator.hatsmpcustomitemsandblocks.HatSmpMod;
+
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.Map;
+import java.util.Iterator;
+
 @HatSmpModElements.ModElement.Tag
 public class DragoniteRulesTriggerProcedure extends HatSmpModElements.ModElement {
-
 	public DragoniteRulesTriggerProcedure(HatSmpModElements instance) {
 		super(instance, 15);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -19,10 +37,8 @@ public class DragoniteRulesTriggerProcedure extends HatSmpModElements.ModElement
 				HatSmpMod.LOGGER.warn("Failed to load dependency world for procedure DragoniteRulesTrigger!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		double diamonds = 0;
 		{
 			AtomicReference<IItemHandler> _iitemhandlerref = new AtomicReference<>();
@@ -50,7 +66,5 @@ public class DragoniteRulesTriggerProcedure extends HatSmpModElements.ModElement
 				}
 			}
 		}
-
 	}
-
 }
