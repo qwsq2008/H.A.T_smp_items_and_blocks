@@ -66,12 +66,12 @@
         "data": {
           "text": "Craft",
           "onClick": {
-            "name": "Dragon"
+            "name": "DragonSwordRecipe"
           },
           "width": 50,
           "height": 20,
           "name": "Craft",
-          "x": 186,
+          "x": 184,
           "y": 72
         }
       },

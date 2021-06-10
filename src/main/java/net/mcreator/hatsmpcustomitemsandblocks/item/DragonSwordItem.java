@@ -1,12 +1,29 @@
 
 package net.mcreator.hatsmpcustomitemsandblocks.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+import net.minecraft.client.util.ITooltipFlag;
+
+import net.mcreator.hatsmpcustomitemsandblocks.itemgroup.HATSMPItemGroup;
+import net.mcreator.hatsmpcustomitemsandblocks.HatSmpModElements;
+
+import java.util.List;
+
 @HatSmpModElements.ModElement.Tag
 public class DragonSwordItem extends HatSmpModElements.ModElement {
-
 	@ObjectHolder("hat_smp:dragon_sword")
 	public static final Item block = null;
-
 	public DragonSwordItem(HatSmpModElements instance) {
 		super(instance, 11);
 	}
@@ -38,7 +55,6 @@ public class DragonSwordItem extends HatSmpModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(DragonpasteItem.block, (int) (1)));
 			}
 		}, 3, -2f, new Item.Properties().group(HATSMPItemGroup.tab).isImmuneToFire()) {
-
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
@@ -51,8 +67,6 @@ public class DragonSwordItem extends HatSmpModElements.ModElement {
 			public boolean hasEffect(ItemStack itemstack) {
 				return true;
 			}
-
 		}.setRegistryName("dragon_sword"));
 	}
-
 }

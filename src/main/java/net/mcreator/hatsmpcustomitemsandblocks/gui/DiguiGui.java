@@ -28,7 +28,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
-import net.mcreator.hatsmpcustomitemsandblocks.procedures.DragonProcedure;
+import net.mcreator.hatsmpcustomitemsandblocks.procedures.DragonSwordRecipeProcedure;
 import net.mcreator.hatsmpcustomitemsandblocks.HatSmpModElements;
 import net.mcreator.hatsmpcustomitemsandblocks.HatSmpMod;
 
@@ -374,11 +374,12 @@ public class DiguiGui extends HatSmpModElements.ModElement {
 		if (buttonID == 0) {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				DragonProcedure.executeProcedure($_dependencies);
+				DragonSwordRecipeProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}
