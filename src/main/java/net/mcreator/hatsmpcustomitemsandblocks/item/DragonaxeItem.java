@@ -1,12 +1,23 @@
 
 package net.mcreator.hatsmpcustomitemsandblocks.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+import net.minecraft.item.AxeItem;
+
+import net.mcreator.hatsmpcustomitemsandblocks.itemgroup.HATSMPItemGroup;
+import net.mcreator.hatsmpcustomitemsandblocks.HatSmpModElements;
+
 @HatSmpModElements.ModElement.Tag
 public class DragonaxeItem extends HatSmpModElements.ModElement {
-
 	@ObjectHolder("hat_smp:dragonaxe")
 	public static final Item block = null;
-
 	public DragonaxeItem(HatSmpModElements instance) {
 		super(instance, 13);
 	}
@@ -38,7 +49,6 @@ public class DragonaxeItem extends HatSmpModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(DragonpasteItem.block, (int) (1)));
 			}
 		}, 1, 1.1f, new Item.Properties().group(HATSMPItemGroup.tab).isImmuneToFire()) {
-
 			@Override
 			public boolean hasContainerItem() {
 				return true;
@@ -59,8 +69,6 @@ public class DragonaxeItem extends HatSmpModElements.ModElement {
 			public boolean hasEffect(ItemStack itemstack) {
 				return true;
 			}
-
 		}.setRegistryName("dragonaxe"));
 	}
-
 }

@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "db",
+    "textureHelmet": "draon_helmit",
     "enableBody": true,
-    "textureBody": "dh",
+    "textureBody": "dragon_chest",
     "enableLeggings": true,
-    "textureLeggings": "dl",
+    "textureLeggings": "dragon_legings",
     "enableBoots": true,
-    "textureBoots": "dbo",
+    "textureBoots": "dragon_boots",
     "creativeTab": {
       "value": "COMBAT"
     },
-    "armorTextureFile": "da_temp",
+    "armorTextureFile": "dragon_",
     "helmetName": "Dragon Helmet",
     "bodyName": "Dragon Chestplate",
     "leggingsName": "Dragon Leggings",

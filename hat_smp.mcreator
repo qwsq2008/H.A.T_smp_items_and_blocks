@@ -159,20 +159,22 @@
     "en_us": {
       "block.hat_smp.ender_concrete_powder": "Ender Concrete Powder",
       "item.hat_smp.dragon_sword": "Dragon Sword",
-      "item.hat_smp.dragonarmor_chestplate": "Dragon Chestplate",
       "block.hat_smp.dragoninfuser": "Draconic Smithing Table",
+      "item.hat_smp.dragonarmor_chestplate": "Dragon Chestplate",
       "item.hat_smp_custom_items_and_blocks.dragonpaste": "Dragonpaste",
       "item.hat_smp.dragonarmor_boots": "Dragon Boots",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_boots": "Dragon Boots",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_leggings": "Dragon Leggings",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_chestplate": "Dragon chestplate",
+      "item.hat_smp.dragonaxe": "Dragonaxe",
       "block.hat_smp_custom_items_and_blocks.dragoninfuser": "Draconic Smithing Table",
       "item.hat_smp.dragonpaste": "Dragonpaste",
       "block.hat_smp.dragonic_smithing_table": "Draconic Smithing Table",
       "itemGroup.tabhatsmp": "HAT SMP",
       "item.hat_smp.dragonarmor_leggings": "Dragon Leggings",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_helmet": "Dragon Helmet",
-      "item.hat_smp.dragonarmor_helmet": "Dragon Helmet"
+      "item.hat_smp.dragonarmor_helmet": "Dragon Helmet",
+      "item.hat_smp.dragon_bowl": "Dragon Bowl"
     }
   },
   "foldersRoot": {

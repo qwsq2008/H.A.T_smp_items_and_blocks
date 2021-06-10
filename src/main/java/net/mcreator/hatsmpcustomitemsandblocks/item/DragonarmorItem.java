@@ -79,25 +79,25 @@ public class DragonarmorItem extends HatSmpModElements.ModElement {
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "hat_smp:textures/models/armor/da_temp_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "hat_smp:textures/models/armor/dragon__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("dragonarmor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "hat_smp:textures/models/armor/da_temp_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "hat_smp:textures/models/armor/dragon__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("dragonarmor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "hat_smp:textures/models/armor/da_temp_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "hat_smp:textures/models/armor/dragon__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("dragonarmor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "hat_smp:textures/models/armor/da_temp_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "hat_smp:textures/models/armor/dragon__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("dragonarmor_boots"));
 	}
