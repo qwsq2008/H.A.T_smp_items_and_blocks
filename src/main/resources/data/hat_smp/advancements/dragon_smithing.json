@@ -20,5 +20,6 @@
     "recipes": [
       "hat_smp:dp"
     ]
-  }
+  },
+  "parent": "hat_smp:dragon_smithing"
 }
