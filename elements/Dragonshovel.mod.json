@@ -8,7 +8,7 @@
     "name": "Dragonshovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:HATSMP"
     },
     "toolType": "Spade",
     "harvestLevel": 15,
