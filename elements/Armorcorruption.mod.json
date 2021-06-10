@@ -1,0 +1,12 @@
+{
+  "_fv": 18,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Armor Corruption",
+    "description": "If you don't want the HAT armor to corrupt, disable this",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}
