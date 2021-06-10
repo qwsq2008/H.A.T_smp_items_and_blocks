@@ -1,0 +1,31 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "palet",
+    "customModelName": "drago_pick:default",
+    "name": "Dragonpickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:HATSMP"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 17,
+    "efficiency": 15.0,
+    "attackSpeed": 1.0,
+    "enchantability": 7,
+    "damageVsEntity": 4.0,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Dragonpaste"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

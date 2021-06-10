@@ -1,0 +1,7 @@
+{
+  "parent": "hat_smp:custom/drago_shovel",
+  "textures": {
+    "1": "hat_smp:blocks/palet",
+    "particle": "hat_smp:items/palet"
+  }
+}

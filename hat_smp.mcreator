@@ -153,13 +153,13 @@
       "registry_name": "dragon_bowl"
     },
     {
-      "name": "DragonSmithing",
+      "name": "WeirdTaste",
       "type": "achievement",
-      "sortid": 14,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "dragon_smithing"
+      "registry_name": "weird_taste"
     },
     {
       "name": "DragoniteRules",
@@ -192,13 +192,40 @@
       }
     },
     {
-      "name": "WeirdTaste",
+      "name": "DragonSmithing",
       "type": "achievement",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon_smithing"
+    },
+    {
+      "name": "Dragonshovel",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonshovel"
+    },
+    {
+      "name": "Dragonhoe",
+      "type": "tool",
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "weird_taste"
+      "registry_name": "dragonhoe"
+    },
+    {
+      "name": "Dragonpickaxe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonpickaxe"
     }
   ],
   "variable_elements": [],
@@ -207,12 +234,10 @@
     "en_us": {
       "block.hat_smp.ender_concrete_powder": "Ender Concrete Powder",
       "item.hat_smp.dragon_sword": "Dragon Sword",
-      "advancements.dragonite_rules.descr": "Get a full set of Dragon Armor",
       "item.hat_smp.dragonarmor_chestplate": "Dragon Chestplate",
       "item.hat_smp.dragonarmor_boots": "Dragon Boots",
       "item.hat_smp_custom_items_and_blocks.dragonpaste": "Dragonpaste",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_boots": "Dragon Boots",
-      "advancements.dragon_smithing.title": "No dragon required!",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_chestplate": "Dragon chestplate",
       "item.hat_smp.dragonaxe": "Dragonaxe",
       "item.hat_smp.dragonpaste": "Dragonpaste",
@@ -220,13 +245,9 @@
       "itemGroup.tabhatsmp": "HAT SMP",
       "item.hat_smp.dragonarmor_leggings": "Dragon Leggings",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_helmet": "Dragon Helmet",
-      "advancements.dragonite_rules.title": "Dragonite Rules!",
       "item.hat_smp.dragon_bowl": "Dragon Bowl",
       "block.hat_smp.dragoninfuser": "Draconic Smithing Table",
-      "advancements.weird_taste.title": "Weird Taste...",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_leggings": "Dragon Leggings",
-      "advancements.weird_taste.descr": "Get Dragon Paste",
-      "advancements.dragon_smithing.descr": "Get a Draconic Smithing Table",
       "block.hat_smp_custom_items_and_blocks.dragoninfuser": "Draconic Smithing Table",
       "item.hat_smp.dragonarmor_helmet": "Dragon Helmet"
     }

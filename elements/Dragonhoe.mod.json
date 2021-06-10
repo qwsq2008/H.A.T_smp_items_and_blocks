@@ -1,0 +1,31 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "palet",
+    "customModelName": "drago_hoe:default",
+    "name": "Dragonhoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:HATSMP"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 15,
+    "efficiency": 12.0,
+    "attackSpeed": 1.0,
+    "enchantability": 9,
+    "damageVsEntity": 4.0,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Dragonpaste"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
