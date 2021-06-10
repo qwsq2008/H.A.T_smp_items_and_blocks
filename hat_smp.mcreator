@@ -151,6 +151,54 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dragon_bowl"
+    },
+    {
+      "name": "DragonSmithing",
+      "type": "achievement",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon_smithing"
+    },
+    {
+      "name": "DragoniteRules",
+      "type": "achievement",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonite_rules"
+    },
+    {
+      "name": "DragoniteRulesTrigger",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonite_rules_trigger",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WeirdTaste",
+      "type": "achievement",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weird_taste"
     }
   ],
   "variable_elements": [],
@@ -159,22 +207,28 @@
     "en_us": {
       "block.hat_smp.ender_concrete_powder": "Ender Concrete Powder",
       "item.hat_smp.dragon_sword": "Dragon Sword",
-      "block.hat_smp.dragoninfuser": "Draconic Smithing Table",
+      "advancements.dragonite_rules.descr": "Get a full set of Dragon Armor",
       "item.hat_smp.dragonarmor_chestplate": "Dragon Chestplate",
-      "item.hat_smp_custom_items_and_blocks.dragonpaste": "Dragonpaste",
       "item.hat_smp.dragonarmor_boots": "Dragon Boots",
+      "item.hat_smp_custom_items_and_blocks.dragonpaste": "Dragonpaste",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_boots": "Dragon Boots",
-      "item.hat_smp_custom_items_and_blocks.dragonarmor_leggings": "Dragon Leggings",
+      "advancements.dragon_smithing.title": "No dragon required!",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_chestplate": "Dragon chestplate",
       "item.hat_smp.dragonaxe": "Dragonaxe",
-      "block.hat_smp_custom_items_and_blocks.dragoninfuser": "Draconic Smithing Table",
       "item.hat_smp.dragonpaste": "Dragonpaste",
       "block.hat_smp.dragonic_smithing_table": "Draconic Smithing Table",
       "itemGroup.tabhatsmp": "HAT SMP",
       "item.hat_smp.dragonarmor_leggings": "Dragon Leggings",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_helmet": "Dragon Helmet",
-      "item.hat_smp.dragonarmor_helmet": "Dragon Helmet",
-      "item.hat_smp.dragon_bowl": "Dragon Bowl"
+      "advancements.dragonite_rules.title": "Dragonite Rules!",
+      "item.hat_smp.dragon_bowl": "Dragon Bowl",
+      "block.hat_smp.dragoninfuser": "Draconic Smithing Table",
+      "advancements.weird_taste.title": "Weird Taste...",
+      "item.hat_smp_custom_items_and_blocks.dragonarmor_leggings": "Dragon Leggings",
+      "advancements.weird_taste.descr": "Get Dragon Paste",
+      "advancements.dragon_smithing.descr": "Get a Draconic Smithing Table",
+      "block.hat_smp_custom_items_and_blocks.dragoninfuser": "Draconic Smithing Table",
+      "item.hat_smp.dragonarmor_helmet": "Dragon Helmet"
     }
   },
   "foldersRoot": {
