@@ -153,6 +153,33 @@
       "registry_name": "dragon_bowl"
     },
     {
+      "name": "Dragonpickaxe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonpickaxe"
+    },
+    {
+      "name": "Dragonshovel",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonshovel"
+    },
+    {
+      "name": "Dragonhoe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragonhoe"
+    },
+    {
       "name": "WeirdTaste",
       "type": "achievement",
       "sortid": 16,
@@ -199,33 +226,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dragon_smithing"
-    },
-    {
-      "name": "Dragonshovel",
-      "type": "tool",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dragonshovel"
-    },
-    {
-      "name": "Dragonhoe",
-      "type": "tool",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dragonhoe"
-    },
-    {
-      "name": "Dragonpickaxe",
-      "type": "tool",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dragonpickaxe"
     }
   ],
   "variable_elements": [],
