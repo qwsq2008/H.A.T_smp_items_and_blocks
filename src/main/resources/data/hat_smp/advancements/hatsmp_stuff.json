@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "hat_smp:ender_concrete_powder"
+    },
+    "title": {
+      "translate": "advancements.hatsmp_stuff.title"
+    },
+    "description": {
+      "translate": "advancements.hatsmp_stuff.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hatsmp_stuff": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

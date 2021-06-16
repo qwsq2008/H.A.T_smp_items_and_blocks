@@ -57,8 +57,20 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -216,24 +228,6 @@
       "registry_name": "dragon_smithing"
     },
     {
-      "name": "Eggspliter",
-      "type": "block",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "eggspliter"
-    },
-    {
-      "name": "Eggspliterres",
-      "type": "recipe",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "eggspliterres"
-    },
-    {
       "name": "Spliter",
       "type": "gui",
       "sortid": 19,
@@ -241,102 +235,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "spliter"
-    },
-    {
-      "name": "Primed",
-      "type": "armor",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "primed",
-      "metadata": {
-        "eh": false,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
-      "name": "Primeds",
-      "type": "item",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "primeds"
-    },
-    {
-      "name": "Primeda",
-      "type": "item",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "primeda"
-    },
-    {
-      "name": "Primedsh",
-      "type": "item",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "primedsh"
-    },
-    {
-      "name": "Ptimedp",
-      "type": "item",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ptimedp"
-    },
-    {
-      "name": "Legshard",
-      "type": "item",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "legshard"
-    },
-    {
-      "name": "Chestshard",
-      "type": "item",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "chestshard"
-    },
-    {
-      "name": "Bootshard",
-      "type": "item",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bootshard"
-    },
-    {
-      "name": "Swordshard",
-      "type": "item",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "swordshard"
-    },
-    {
-      "name": "Axeshard",
-      "type": "item",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "axeshard"
     },
     {
       "name": "Shovelshard",
@@ -348,13 +246,31 @@
       "registry_name": "shovelshard"
     },
     {
-      "name": "Pickshard",
+      "name": "Axeshard",
       "type": "item",
-      "sortid": 31,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pickshard"
+      "registry_name": "axeshard"
+    },
+    {
+      "name": "Legshard",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "legshard"
+    },
+    {
+      "name": "Primeda",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "primeda"
     },
     {
       "name": "Hatshard",
@@ -366,45 +282,13 @@
       "registry_name": "hatshard"
     },
     {
-      "name": "HAT",
-      "type": "armor",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "hat",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
-      "name": "HATBootsTickEvent",
+      "name": "HATHelmetTickEvent",
       "type": "procedure",
-      "sortid": 34,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "hat_boots_tick_event",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "HATLeggingsTickEvent",
-      "type": "procedure",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "hat_leggings_tick_event",
+      "registry_name": "hat_helmet_tick_event",
       "metadata": {
         "dependencies": [
           {
@@ -432,13 +316,13 @@
       }
     },
     {
-      "name": "HATHelmetTickEvent",
+      "name": "HATLeggingsTickEvent",
       "type": "procedure",
-      "sortid": 37,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "hat_helmet_tick_event",
+      "registry_name": "hat_leggings_tick_event",
       "metadata": {
         "dependencies": [
           {
@@ -447,56 +331,184 @@
           }
         ]
       }
+    },
+    {
+      "name": "Swordshard",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "swordshard"
+    },
+    {
+      "name": "HATBootsTickEvent",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hat_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ptimedp",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ptimedp"
+    },
+    {
+      "name": "Eggspliter",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eggspliter"
+    },
+    {
+      "name": "Primedsh",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "primedsh"
+    },
+    {
+      "name": "HAT",
+      "type": "armor",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hat",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Primeds",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "primeds"
+    },
+    {
+      "name": "Chestshard",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chestshard"
+    },
+    {
+      "name": "Eggspliterres",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eggspliterres"
+    },
+    {
+      "name": "Primed",
+      "type": "armor",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "primed",
+      "metadata": {
+        "eh": false,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Bootshard",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bootshard"
+    },
+    {
+      "name": "Pickshard",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pickshard"
+    },
+    {
+      "name": "HATSMPStuff",
+      "type": "achievement",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hatsmp_stuff"
+    },
+    {
+      "name": "Armorcorruption",
+      "type": "gamerule",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armorcorruption",
+      "metadata": {
+        "type": "boolean"
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.hat_smp.ptimedp": "Ptimedp",
       "block.hat_smp.ender_concrete_powder": "Ender Concrete Powder",
-      "item.hat_smp.dragon_sword": "Dragon Sword",
       "item.hat_smp.dragonarmor_chestplate": "Dragon Chestplate",
       "item.hat_smp.dragonarmor_boots": "Dragon Boots",
-      "item.hat_smp_custom_items_and_blocks.dragonpaste": "Dragonpaste",
-      "item.hat_smp_custom_items_and_blocks.dragonarmor_boots": "Dragon Boots",
-      "block.hat_smp.eggspliter": "Eggspliter",
-      "advancements.dragon_smithing.title": "No dragon required!",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_chestplate": "Dragon chestplate",
       "item.hat_smp.dragonaxe": "Dragonaxe",
-      "item.hat_smp.dragonpickaxe": "Dragonpickaxe",
       "item.hat_smp.dragonpaste": "Dragonpaste",
       "block.hat_smp.dragonic_smithing_table": "Draconic Smithing Table",
       "itemGroup.tabhatsmp": "HAT SMP",
       "item.hat_smp.dragonarmor_leggings": "Dragon Leggings",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_helmet": "Dragon Helmet",
       "item.hat_smp.dragon_bowl": "Dragon Bowl",
-      "item.hat_smp.primed_leggings": "Primed Leggings",
-      "item.hat_smp.shovelshard": "shovelshard",
-      "item.hat_smp.hatshard": "Hatshard",
-      "item.hat_smp.hat_chestplate": "HAT Chestplate",
       "item.hat_smp.dragonhoe": "Dragonhoe",
-      "item.hat_smp.dragonshovel": "Dragonshovel",
-      "item.hat_smp.primedsh": "Primedsh",
       "block.hat_smp.dragoninfuser": "Draconic Smithing Table",
-      "item.hat_smp.primed_helmet": "Primed Helmet",
-      "item.hat_smp.swordshard": "swordshard",
-      "item.hat_smp.chestshard": "chestshard",
-      "item.hat_smp.hat_leggings": "HAT Leggings",
-      "item.hat_smp.hat_boots": "Hat Boots",
-      "item.hat_smp.primeda": "Primeda",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_leggings": "Dragon Leggings",
-      "advancements.dragon_smithing.descr": "Get a Draconic Smithing Table",
-      "item.hat_smp.legshard": "Legshard",
-      "item.hat_smp.axeshard": "axeshard",
-      "item.hat_smp.hat_helmet": "Dragon Hat",
-      "item.hat_smp.bootshard": "bootshard",
-      "item.hat_smp.pickshard": "pickshard",
       "block.hat_smp_custom_items_and_blocks.dragoninfuser": "Draconic Smithing Table",
-      "item.hat_smp.primed_chestplate": "Primed Body",
-      "item.hat_smp.primed_boots": "Primed Boots",
       "item.hat_smp.dragonarmor_helmet": "Dragon Helmet",
-      "item.hat_smp.primeds": "Primeds"
+      "item.hat_smp.dragon_sword": "Dragon Sword",
+      "item.hat_smp_custom_items_and_blocks.dragonpaste": "Dragonpaste",
+      "item.hat_smp_custom_items_and_blocks.dragonarmor_boots": "Dragon Boots",
+      "advancements.dragon_smithing.title": "No dragon required!",
+      "item.hat_smp.dragonpickaxe": "Dragonpickaxe",
+      "item.hat_smp.dragonshovel": "Dragonshovel",
+      "advancements.dragon_smithing.descr": "Get a Draconic Smithing Table"
     }
   },
   "foldersRoot": {
