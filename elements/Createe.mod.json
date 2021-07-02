@@ -1,0 +1,57 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "item frame",
+          "onClick": {
+            "name": "Itemframe"
+          },
+          "width": 75,
+          "height": 20,
+          "name": "item frame",
+          "x": 132,
+          "y": 96
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Petrified Oak",
+          "onClick": {
+            "name": "PetrifiedOak"
+          },
+          "width": 90,
+          "height": 20,
+          "name": "Petrified Oak",
+          "x": 132,
+          "y": 72
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "armor stands",
+          "onClick": {
+            "name": "Armorstand"
+          },
+          "width": 85,
+          "height": 20,
+          "name": "armor stands",
+          "x": 132,
+          "y": 48
+        }
+      }
+    ]
+  }
+}

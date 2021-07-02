@@ -1,0 +1,7 @@
+{
+  "parent": "hat_smp:custom/drago_sword",
+  "textures": {
+    "0": "hat_smp:blocks/palet",
+    "particle": "hat_smp:items/palet"
+  }
+}

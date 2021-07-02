@@ -1,0 +1,70 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "drh",
+    "enableBody": true,
+    "textureBody": "pc",
+    "enableLeggings": true,
+    "textureLeggings": "sl",
+    "enableBoots": true,
+    "textureBoots": "ud",
+    "onHelmetTick": {
+      "name": "HATHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "HATBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "HATLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "HATBootsTickEvent"
+    },
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "hat_",
+    "helmetName": "Dragon Hat",
+    "bodyName": "HAT Chestplate",
+    "leggingsName": "HAT Leggings",
+    "bootsName": "Hat Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modelsteve",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "hatt.png",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 1000,
+    "damageValueHelmet": 5,
+    "damageValueBody": 9,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 5,
+    "enchantability": 100,
+    "toughness": 3.0,
+    "knockbackResistance": 0.2,
+    "equipSound": {
+      "value": "entity.enderdragon.growl"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Dragonpaste"
+      }
+    ]
+  }
+}

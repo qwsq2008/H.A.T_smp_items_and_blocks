@@ -1,21 +1,12 @@
 
 package net.mcreator.hatsmpcustomitemsandblocks.enchantment;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.util.DamageSource;
-import net.minecraft.item.ItemStack;
-import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.enchantment.EnchantmentType;
-import net.minecraft.enchantment.Enchantment;
-
-import net.mcreator.hatsmpcustomitemsandblocks.item.DragonarmorItem;
-import net.mcreator.hatsmpcustomitemsandblocks.HatSmpModElements;
-
 @HatSmpModElements.ModElement.Tag
 public class TestEnchantEnchantment extends HatSmpModElements.ModElement {
+
 	@ObjectHolder("hat_smp:test_enchant")
 	public static final Enchantment enchantment = null;
+
 	public TestEnchantEnchantment(HatSmpModElements instance) {
 		super(instance, 40);
 	}
@@ -24,7 +15,9 @@ public class TestEnchantEnchantment extends HatSmpModElements.ModElement {
 	public void initElements() {
 		elements.enchantments.add(() -> new CustomEnchantment(EquipmentSlotType.MAINHAND).setRegistryName("test_enchant"));
 	}
+
 	public static class CustomEnchantment extends Enchantment {
+
 		public CustomEnchantment(EquipmentSlotType... slots) {
 			super(Enchantment.Rarity.VERY_RARE, EnchantmentType.ARMOR, slots);
 		}
@@ -71,5 +64,7 @@ public class TestEnchantEnchantment extends HatSmpModElements.ModElement {
 		public boolean isAllowedOnBooks() {
 			return true;
 		}
+
 	}
+
 }

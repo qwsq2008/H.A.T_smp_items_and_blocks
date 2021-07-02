@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "command",
+  "definition": {
+    "commandName": "create",
+    "permissionLevel": "No requirement",
+    "onCommandExecuted": {
+      "name": "CreateCommandExecuted"
+    }
+  }
+}

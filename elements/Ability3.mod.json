@@ -1,0 +1,12 @@
+{
+  "_fv": 18,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "NUMPAD3",
+    "keyBindingName": "Ability3",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "Ability3p"
+    }
+  }
+}

@@ -6,17 +6,17 @@
   ],
   "key": {
     "0": {
-      "item": "hat_smp:chaos_wood_planks"
+      "item": "hat_smp:deleted_mod_element"
     },
     "1": {
-      "item": "hat_smp:chaos_wood_planks"
+      "item": "hat_smp:deleted_mod_element"
     },
     "2": {
-      "item": "hat_smp:chaos_wood_planks"
+      "item": "hat_smp:deleted_mod_element"
     }
   },
   "result": {
-    "item": "hat_smp:chaos_wood_slab",
+    "item": "hat_smp:deleted_mod_element",
     "count": 6
   }
 }

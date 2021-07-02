@@ -1,0 +1,8 @@
+{
+  "parent": "hat_smp:custom/quinnbot",
+  "textures": {
+    "all": "hat_smp:blocks/qb",
+    "particle": "hat_smp:blocks/qb",
+    "1": "hat_smp:blocks/qb"
+  }
+}

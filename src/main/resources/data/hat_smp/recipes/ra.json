@@ -1,0 +1,20 @@
+{
+  "group": "hat_smp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "hat_smp:uperrightarm"
+    },
+    "1": {
+      "item": "hat_smp:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "hat_smp:qbrightarm",
+    "count": 1
+  }
+}

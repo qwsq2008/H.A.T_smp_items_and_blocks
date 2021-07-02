@@ -1,0 +1,27 @@
+{
+  "group": "hat_smp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 ",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "minecraft:diamond"
+    },
+    "5": {
+      "item": "hat_smp:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "hat_smp:deleted_mod_element",
+    "count": 1
+  }
+}
