@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "hat_smp:chaos_crafting_table"
+    },
+    "title": {
+      "translate": "advancements.what_is_happening.title"
+    },
+    "description": {
+      "translate": "advancements.what_is_happening.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "what_is_happening": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "hat_smp:chaos_dimension"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "minecraft:story/enter_the_end"
+}

@@ -1,0 +1,13 @@
+{
+  "group": "hat_smp",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:chaoswood_log"
+    }
+  ],
+  "result": {
+    "item": "hat_smp:chaos_wood_planks",
+    "count": 4
+  }
+}

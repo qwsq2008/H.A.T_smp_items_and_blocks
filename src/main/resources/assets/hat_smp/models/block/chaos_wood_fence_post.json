@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "hat_smp:blocks/chaoswood_planks",
+    "particle": "hat_smp:blocks/chaoswood_planks"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "hat_smp:block/chaos_wood_slab"
+    },
+    "type=top": {
+      "model": "hat_smp:block/chaos_wood_slab_top"
+    },
+    "type=double": {
+      "model": "hat_smp:block/chaos_wood_slab_full"
+    }
+  }
+}

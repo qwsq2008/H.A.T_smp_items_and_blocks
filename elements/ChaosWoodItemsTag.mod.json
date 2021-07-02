@@ -1,0 +1,20 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ChaosWoodWood"
+      },
+      {
+        "value": "CUSTOM:ChaosWoodLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "chaoswood_log",
+    "namespace": "forge"
+  }
+}

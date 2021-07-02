@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hat_smp:blocks/chaoscraftingtablebottom",
+    "up": "hat_smp:blocks/chaoscraftingtabletop",
+    "north": "hat_smp:blocks/chaoscraftingtableside",
+    "east": "hat_smp:blocks/chaoscraftingtable",
+    "south": "hat_smp:blocks/chaoscraftingtableside",
+    "west": "hat_smp:blocks/chaoscraftingtable",
+    "particle": "hat_smp:blocks/chaoscraftingtablebottom"
+  }
+}

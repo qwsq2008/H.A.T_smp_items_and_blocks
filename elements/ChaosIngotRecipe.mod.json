@@ -1,0 +1,20 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 7.0,
+    "cookingTime": 500,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:RawChaos"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:ChaosIngot"
+    },
+    "name": "chaos_ingot_recipe",
+    "namespace": "mod"
+  }
+}

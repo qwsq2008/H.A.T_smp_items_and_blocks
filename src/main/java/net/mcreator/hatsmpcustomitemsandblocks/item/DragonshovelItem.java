@@ -1,12 +1,23 @@
 
 package net.mcreator.hatsmpcustomitemsandblocks.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.ShovelItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.hatsmpcustomitemsandblocks.itemgroup.HATSMPItemGroup;
+import net.mcreator.hatsmpcustomitemsandblocks.HatSmpModElements;
+
 @HatSmpModElements.ModElement.Tag
 public class DragonshovelItem extends HatSmpModElements.ModElement {
-
 	@ObjectHolder("hat_smp:dragonshovel")
 	public static final Item block = null;
-
 	public DragonshovelItem(HatSmpModElements instance) {
 		super(instance, 15);
 	}
@@ -38,14 +49,11 @@ public class DragonshovelItem extends HatSmpModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(DragonpasteItem.block, (int) (1)));
 			}
 		}, 1, -3f, new Item.Properties().group(HATSMPItemGroup.tab).isImmuneToFire()) {
-
 			@Override
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasEffect(ItemStack itemstack) {
 				return true;
 			}
-
 		}.setRegistryName("dragonshovel"));
 	}
-
 }

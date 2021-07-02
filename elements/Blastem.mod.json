@@ -1,0 +1,12 @@
+{
+  "_fv": 18,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "Z",
+    "keyBindingName": "Blast em",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "Blaster"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "hat_smp:dragon_sword"
+    },
+    "title": {
+      "translate": "advancements.campaign_for_disarmment.title"
+    },
+    "description": {
+      "translate": "advancements.campaign_for_disarmment.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "campaign_for_disarmment": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 2
+  },
+  "parent": "minecraft:story/shiny_gear"
+}

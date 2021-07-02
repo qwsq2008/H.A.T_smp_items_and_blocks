@@ -1,0 +1,12 @@
+{
+  "group": "hat_smp",
+  "type": "minecraft:smelting",
+  "experience": 7,
+  "cookingtime": 500,
+  "ingredient": {
+    "item": "hat_smp:raw_chaos"
+  },
+  "result": {
+    "item": "hat_smp:chaos_ingot"
+  }
+}

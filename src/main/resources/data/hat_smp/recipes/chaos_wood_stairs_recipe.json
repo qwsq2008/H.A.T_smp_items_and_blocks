@@ -1,0 +1,33 @@
+{
+  "group": "hat_smp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hat_smp:chaos_wood_planks"
+    },
+    "3": {
+      "item": "hat_smp:chaos_wood_planks"
+    },
+    "4": {
+      "item": "hat_smp:chaos_wood_planks"
+    },
+    "6": {
+      "item": "hat_smp:chaos_wood_planks"
+    },
+    "7": {
+      "item": "hat_smp:chaos_wood_planks"
+    },
+    "8": {
+      "item": "hat_smp:chaos_wood_planks"
+    }
+  },
+  "result": {
+    "item": "hat_smp:chaos_wood_stairs",
+    "count": 4
+  }
+}

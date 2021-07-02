@@ -1,0 +1,30 @@
+{
+  "_fv": 18,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Test Enchant",
+    "type": "ARMOR",
+    "rarity": "VERY_RARE",
+    "minLevel": 29,
+    "maxLevel": 1,
+    "damageModifier": 2,
+    "compatibleEnchantments": [],
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:Dragonarmor.helmet"
+      },
+      {
+        "value": "CUSTOM:Dragonarmor.body"
+      },
+      {
+        "value": "CUSTOM:Dragonarmor.legs"
+      },
+      {
+        "value": "CUSTOM:Dragonarmor.boots"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true
+  }
+}

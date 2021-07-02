@@ -247,6 +247,625 @@
       "metadata": {
         "type": "boolean"
       }
+    },
+    {
+      "name": "ChaoticBiome",
+      "type": "biome",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaotic_biome"
+    },
+    {
+      "name": "ChaosDimension",
+      "type": "dimension",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_dimension",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "RawChaos",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_chaos"
+    },
+    {
+      "name": "ChaosIngot",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_ingot"
+    },
+    {
+      "name": "ChaosIngotRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_ingot_recipe"
+    },
+    {
+      "name": "ChaosOre",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_ore"
+    },
+    {
+      "name": "UseEndStoneForTools",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "use_end_stone_for_tools"
+    },
+    {
+      "name": "UseEndStoneForTools2",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "use_end_stone_for_tools_2"
+    },
+    {
+      "name": "UseEndStoneForTools3",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "use_end_stone_for_tools_3"
+    },
+    {
+      "name": "UseEndStoneForTools4",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "use_end_stone_for_tools_4"
+    },
+    {
+      "name": "UseEndStoneForTools5",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "use_end_stone_for_tools_5"
+    },
+    {
+      "name": "UseEndStoneForTools6",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "use_end_stone_for_tools_6"
+    },
+    {
+      "name": "UseEndStoneForTools7",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "use_end_stone_for_tools_7"
+    },
+    {
+      "name": "ChaosFuelItem",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_fuel_item"
+    },
+    {
+      "name": "ChaosFuel",
+      "type": "fuel",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_fuel"
+    },
+    {
+      "name": "FueledChaosOre",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fueled_chaos_ore"
+    },
+    {
+      "name": "ChaosCraftingTable",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_crafting_table"
+    },
+    {
+      "name": "ChaosCraftingFunction",
+      "type": "function",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_crafting_function"
+    },
+    {
+      "name": "ChaosTeleportStuff",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_teleport_stuff",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChaosTeleporter",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "proto_chaos_teleporter"
+    },
+    {
+      "name": "Fortune",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fortunefco",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ProtoChaosTeleporter",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "proto_chaos_teleporter"
+    },
+    {
+      "name": "UseEndStoneforFurnace",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "use_end_stonefor_furnace"
+    },
+    {
+      "name": "CampaignForDisarmment",
+      "type": "achievement",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "campaign_for_disarmment"
+    },
+    {
+      "name": "Disarm",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disarm",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlockStuff",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_stuff",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TestEnchant",
+      "type": "enchantment",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_enchant"
+    },
+    {
+      "name": "ChaosWoodWood",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_wood_wood"
+    },
+    {
+      "name": "ChaosWoodLog",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_wood_log"
+    },
+    {
+      "name": "ChaosWoodPlanks",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_wood_planks"
+    },
+    {
+      "name": "ChaosWoodLeaves",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_wood_leaves"
+    },
+    {
+      "name": "ChaosWoodStairs",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_wood_stairs"
+    },
+    {
+      "name": "ChaosWoodSlab",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_wood_slab"
+    },
+    {
+      "name": "ChaosWoodFence",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_wood_fence"
+    },
+    {
+      "name": "ChaosWoodFenceGate",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_wood_fence_gate"
+    },
+    {
+      "name": "ChaosWoodItemsTag",
+      "type": "tag",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_wood_items_tag"
+    },
+    {
+      "name": "ChaosWoodWoodRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_wood_wood_recipe"
+    },
+    {
+      "name": "ChaosWoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_wood_planks_recipe"
+    },
+    {
+      "name": "ChaosWoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_wood_stairs_recipe"
+    },
+    {
+      "name": "ChaosWoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_wood_slab_recipe"
+    },
+    {
+      "name": "ChaosWoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_wood_fence_recipe"
+    },
+    {
+      "name": "ChaosWoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_wood_fence_gate_recipe"
+    },
+    {
+      "name": "ChaosWoodStickRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_wood_stick_recipe"
+    },
+    {
+      "name": "WhatIsHappening",
+      "type": "achievement",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "what_is_happening"
+    },
+    {
+      "name": "ChaosDirt",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chaos_dirt"
+    },
+    {
+      "name": "IronManHackerProtoTest",
+      "type": "armor",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_man_hacker_proto_test",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "SpaceFly",
+      "type": "keybind",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "space_fly"
+    },
+    {
+      "name": "IronLaunch",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_launch",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lasers",
+      "type": "gun",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lasers"
+    },
+    {
+      "name": "BlastBreakBlock",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blast_break_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NoFallDamageIron",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "no_fall_damage_iron",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "REALNoFallDamage",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "real_no_fall_damage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blaster",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blaster",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blastem",
+      "type": "keybind",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blastem"
     }
   ],
   "variable_elements": [],
@@ -255,31 +874,65 @@
     "en_us": {
       "block.hat_smp.ender_concrete_powder": "Ender Concrete Powder",
       "advancements.hatsmp_stuff.title": "HATSMP Stuff",
-      "item.hat_smp.dragon_sword": "Dragon Sword",
+      "advancements.dragonite_rules.descr": "Get a full set of Dragon Armor",
       "item.hat_smp.dragonarmor_chestplate": "Dragon Chestplate",
       "item.hat_smp.dragonarmor_boots": "Dragon Boots",
-      "item.hat_smp_custom_items_and_blocks.dragonpaste": "Dragonpaste",
-      "item.hat_smp_custom_items_and_blocks.dragonarmor_boots": "Dragon Boots",
+      "advancements.what_is_happening.descr": "Go see some chaos!",
+      "block.hat_smp.chaos_wood_planks": "ChaosWood Planks",
+      "advancements.what_is_happening.title": "What Is Happening?",
+      "block.hat_smp.chaos_wood_leaves": "ChaosWood Leaves",
       "advancements.hatsmp_stuff.descr": "The Beginnings...",
-      "advancements.dragon_smithing.title": "No dragon required!",
+      "block.hat_smp.chaos_crafting_table": "Chaos Crafting Table",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_chestplate": "Dragon chestplate",
-      "item.hat_smp.dragonaxe": "Dragonaxe",
-      "item.hat_smp.dragonpickaxe": "Dragonpickaxe",
       "gamerule.armorcorruption.description": "If you don\u0027t want the HAT armor to corrupt, disable this",
+      "item.hat_smp.dragonaxe": "Dragonaxe",
       "item.hat_smp.dragonpaste": "Dragonpaste",
+      "item.hat_smp.chaos_dimension": "DO NOT USE!!",
       "block.hat_smp.dragonic_smithing_table": "Draconic Smithing Table",
       "itemGroup.tabhatsmp": "HAT SMP",
       "item.hat_smp.dragonarmor_leggings": "Dragon Leggings",
+      "block.hat_smp.fueled_chaos_ore": "Fueled Chaos Ore",
+      "item.hat_smp.iron_man_hacker_proto_test_helmet": "Iron Man Hacker Proto Test Helmet",
+      "advancements.dragonite_rules.title": "Dragonite Rules!",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_helmet": "Dragon Helmet",
       "item.hat_smp.dragon_bowl": "Dragon Bowl",
+      "block.hat_smp.chaos_wood_stairs": "ChaosWood Stairs",
+      "item.hat_smp.iron_man_hacker_proto_test_leggings": "Iron Man Hacker Proto Test Leggings",
       "item.hat_smp.dragonhoe": "Dragonhoe",
-      "item.hat_smp.dragonshovel": "Dragonshovel",
       "block.hat_smp.dragoninfuser": "Draconic Smithing Table",
+      "item.hat_smp.chaos_fuel_item": "Chaos Fuel Item",
+      "block.hat_smp.chaos_wood_wood": "ChaosWood Wood",
+      "advancements.weird_taste.title": "Weird Taste...",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_leggings": "Dragon Leggings",
-      "advancements.dragon_smithing.descr": "Get a Draconic Smithing Table",
+      "item.hat_smp.iron_man_hacker_proto_test_chestplate": "Iron Man Hacker Proto Test Body",
+      "block.hat_smp.chaos_wood_fence": "ChaosWood Fence",
       "block.hat_smp_custom_items_and_blocks.dragoninfuser": "Draconic Smithing Table",
+      "block.hat_smp.chaos_wood_slab": "ChaosWood Slab",
       "item.hat_smp.dragonarmor_helmet": "Dragon Helmet",
-      "gamerule.armorcorruption": "Armor Corruption"
+      "gamerule.armorcorruption": "Armor Corruption",
+      "advancements.campaign_for_disarmment.descr": "Support our campaign!",
+      "item.hat_smp.dragon_sword": "Dragon Sword",
+      "item.hat_smp.raw_chaos": "Raw Chaos",
+      "item.hat_smp_custom_items_and_blocks.dragonpaste": "Dragonpaste",
+      "item.hat_smp_custom_items_and_blocks.dragonarmor_boots": "Dragon Boots",
+      "advancements.dragon_smithing.title": "No dragon required!",
+      "key.hat_smp.blastem": "Blast em",
+      "block.hat_smp.chaos_ore": "Chaos Ore",
+      "item.hat_smp.dragonpickaxe": "Dragonpickaxe",
+      "block.hat_smp.proto_chaos_teleporter": "Chaos Teleporter",
+      "block.hat_smp.chaos_wood_log": "ChaosWood Log",
+      "key.hat_smp.space_fly": "IronLaunch",
+      "item.hat_smp.dragonshovel": "Dragonshovel",
+      "biome.hat_smp.chaotic_biome": "Chaotic Biome",
+      "advancements.weird_taste.descr": "Get Dragon Paste",
+      "advancements.dragon_smithing.descr": "Get a Draconic Smithing Table",
+      "block.hat_smp.chaos_dirt": "Chaos Dirt",
+      "enchantment.hat_smp.test_enchant": "Test Enchant",
+      "block.hat_smp.chaos_wood_fence_gate": "ChaosWood Fence Gate",
+      "item.hat_smp.iron_man_hacker_proto_test_boots": "Iron Man Hacker Proto Test Boots",
+      "item.hat_smp.chaos_ingot": "Chaos Ingot",
+      "advancements.campaign_for_disarmment.title": "Campaign For Disarmment",
+      "item.hat_smp.lasers": "TemporaryGauntlet"
     }
   },
   "foldersRoot": {

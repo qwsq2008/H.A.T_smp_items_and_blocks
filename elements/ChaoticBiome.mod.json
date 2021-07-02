@@ -1,0 +1,145 @@
+{
+  "_fv": 18,
+  "_type": "biome",
+  "definition": {
+    "name": "Chaotic Biome",
+    "groundBlock": {
+      "value": "Blocks.NETHERRACK"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.END_STONE"
+    },
+    "airColor": {
+      "value": -10092544,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -16738048,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -16724788,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -10092442,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -13434829,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": "ambient.cave"
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "WATER_BUBBLE"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "NETHER",
+    "parent": {
+      "value": "mutated_mesa"
+    },
+    "rainingPossibility": 0.30000000000000004,
+    "temperature": 1.6,
+    "baseHeight": 1.4000000000000001,
+    "heightVariation": 0.5,
+    "biomeType": "DESERT",
+    "spawnBiome": false,
+    "biomeWeight": 10,
+    "biomeDictionaryTypes": [
+      "FOREST"
+    ],
+    "grassPerChunk": 4,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 5,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 1,
+    "reedsPerChunk": 7,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 2,
+    "vanillaTreeType": "Big trees",
+    "treeType": 1,
+    "minHeight": 19,
+    "maxWaterDepth": 5,
+    "treeStem": {
+      "value": "CUSTOM:ChaosWoodLeaves"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:ChaosWoodLog"
+    },
+    "treeVines": {
+      "value": "Blocks.WEEPING_VINES"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": true,
+    "spawnPillagerOutpost": false,
+    "villageType": "taiga",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": true,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityBat"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntityBlaze"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 1,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityEnderman"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 4,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityFox"
+        },
+        "minGroup": 1,
+        "maxGroup": 5,
+        "weight": 7,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}
