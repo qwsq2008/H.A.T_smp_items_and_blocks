@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hat_smp:blocks/ip",
+    "up": "hat_smp:blocks/ip",
+    "north": "hat_smp:blocks/ipf",
+    "east": "hat_smp:blocks/ip",
+    "south": "hat_smp:blocks/ip",
+    "west": "hat_smp:blocks/ip",
+    "particle": "hat_smp:blocks/ip"
+  }
+}

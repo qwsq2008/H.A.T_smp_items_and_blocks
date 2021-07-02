@@ -4,36 +4,30 @@
 
 public static class Modelsteve extends EntityModel<Entity> {
 	private final ModelRenderer Head;
-	private final ModelRenderer bone;
 
 	public Modelsteve() {
 		textureWidth = 64;
 		textureHeight = 64;
 
 		Head = new ModelRenderer(this);
-		Head.setRotationPoint(0.0F, 24.0F, 0.0F);
-
-		bone = new ModelRenderer(this);
-		bone.setRotationPoint(-1.0F, 48.35F, 1.0F);
-		setRotationAngle(bone, 0.0F, 0.0F, 0.0F);
-		bone.setTextureOffset(3, 1).addBox(-3.0F, -35.0F, -5.0F, 8.0F, 3.0F, 8.0F, 0.0F, false);
-		bone.setTextureOffset(9, 1).addBox(-2.0F, -42.0F, -4.0F, 6.0F, 9.0F, 6.0F, 0.0F, false);
-		bone.setTextureOffset(11, 49).addBox(-3.0F, -42.0F, -2.0F, 1.0F, 7.0F, 2.0F, 0.0F, false);
-		bone.setTextureOffset(11, 49).addBox(4.0F, -42.0F, -2.0F, 1.0F, 7.0F, 2.0F, 0.0F, false);
-		bone.setTextureOffset(11, 49).addBox(0.0F, -42.0F, -5.0F, 2.0F, 7.0F, 1.0F, 0.0F, false);
-		bone.setTextureOffset(11, 49).addBox(0.0F, -42.0F, 2.0F, 2.0F, 7.0F, 1.0F, 0.0F, false);
-		bone.setTextureOffset(0, 0).addBox(-4.0F, -35.0F, -3.0F, 1.0F, 3.0F, 4.0F, 0.0F, false);
-		bone.setTextureOffset(0, 0).addBox(5.0F, -35.0F, -3.0F, 1.0F, 3.0F, 4.0F, 0.0F, false);
-		bone.setTextureOffset(0, 0).addBox(-1.0F, -35.0F, -6.0F, 4.0F, 3.0F, 1.0F, 0.0F, false);
-		bone.setTextureOffset(0, 0).addBox(-1.0F, -35.0F, 3.0F, 4.0F, 3.0F, 1.0F, 0.0F, false);
-		bone.setTextureOffset(11, 39).addBox(-2.0F, -43.0F, -4.0F, 6.0F, 1.0F, 6.0F, 0.0F, false);
+		Head.setRotationPoint(0.0F, 0.0F, 0.0F);
+		Head.setTextureOffset(39, 49).addBox(-3.0F, -9.0F, -3.0F, 6.0F, 1.0F, 6.0F, 0.0F, false);
+		Head.setTextureOffset(49, 60).addBox(-2.0F, -9.0F, -4.0F, 4.0F, 1.0F, 1.0F, 0.0F, false);
+		Head.setTextureOffset(45, 57).addBox(-4.0F, -9.0F, -2.0F, 1.0F, 1.0F, 4.0F, 0.0F, false);
+		Head.setTextureOffset(48, 54).addBox(-2.0F, -9.0F, 3.0F, 4.0F, 1.0F, 1.0F, 0.0F, false);
+		Head.setTextureOffset(44, 48).addBox(3.0F, -9.0F, -2.0F, 1.0F, 1.0F, 4.0F, 0.0F, false);
+		Head.setTextureOffset(14, 45).addBox(-1.0F, -16.0F, -3.0F, 2.0F, 7.0F, 1.0F, 0.0F, false);
+		Head.setTextureOffset(45, 52).addBox(-2.0F, -15.0F, -2.0F, 4.0F, 6.0F, 4.0F, 0.0F, false);
+		Head.setTextureOffset(14, 45).addBox(-1.0F, -16.0F, 2.0F, 2.0F, 7.0F, 1.0F, 0.0F, false);
+		Head.setTextureOffset(14, 45).addBox(-3.0F, -16.0F, -1.0F, 1.0F, 7.0F, 2.0F, 0.0F, false);
+		Head.setTextureOffset(14, 45).addBox(2.0F, -16.0F, -1.0F, 1.0F, 7.0F, 2.0F, 0.0F, false);
+		Head.setTextureOffset(14, 45).addBox(-2.0F, -16.0F, -2.0F, 4.0F, 1.0F, 4.0F, 0.0F, false);
 	}
 
 	@Override
 	public void render(MatrixStack matrixStack, IVertexBuilder buffer, int packedLight, int packedOverlay, float red,
 			float green, float blue, float alpha) {
 		Head.render(matrixStack, buffer, packedLight, packedOverlay);
-		bone.render(matrixStack, buffer, packedLight, packedOverlay);
 	}
 
 	public void setRotationAngle(ModelRenderer modelRenderer, float x, float y, float z) {

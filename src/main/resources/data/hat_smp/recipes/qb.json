@@ -1,0 +1,30 @@
+{
+  "group": "hat_smp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "hat_smp:qbhead"
+    },
+    "3": {
+      "item": "hat_smp:qbrightarm"
+    },
+    "4": {
+      "item": "hat_smp:qbchest"
+    },
+    "5": {
+      "item": "hat_smp:qbleftarm"
+    },
+    "7": {
+      "item": "hat_smp:qblegss"
+    }
+  },
+  "result": {
+    "item": "hat_smp:quinnbot",
+    "count": 1
+  }
+}

@@ -25,7 +25,7 @@
     "creativeTab": {
       "value": "COMBAT"
     },
-    "armorTextureFile": "dragon_",
+    "armorTextureFile": "hat_",
     "helmetName": "Dragon Hat",
     "bodyName": "HAT Chestplate",
     "leggingsName": "HAT Leggings",
@@ -35,8 +35,8 @@
     "leggingsSpecialInfo": [],
     "bootsSpecialInfo": [],
     "helmetModelName": "Modelsteve",
-    "helmetModelPart": "bone",
-    "helmetModelTexture": "hat.png",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "hatt.png",
     "bodyModelName": "Default",
     "bodyModelPart": "Body",
     "armsModelPartL": "Arms L",

@@ -57,20 +57,8 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
+            "name": "entity",
+            "type": "entity"
           }
         ]
       }
@@ -480,6 +468,723 @@
       "metadata": {
         "type": "boolean"
       }
+    },
+    {
+      "name": "Ability1",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ability_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ability",
+      "type": "keybind",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ability1"
+    },
+    {
+      "name": "Createe",
+      "type": "gui",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "createe"
+    },
+    {
+      "name": "Itemframe",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "itemframe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CreateCommandExecuted",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "create_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Create",
+      "type": "command",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "create"
+    },
+    {
+      "name": "PetrifiedOak",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "petrified_oak",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Armorstand",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armorstand",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ender",
+      "type": "command",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender"
+    },
+    {
+      "name": "EnderCommandExecuted",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enderbern",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderbern",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ability2",
+      "type": "keybind",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ability_2"
+    },
+    {
+      "name": "Ability2p",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ability_2p",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ability3p",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ability_3p",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Apility4p",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "apility_4p",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ability3",
+      "type": "keybind",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ability_3"
+    },
+    {
+      "name": "Ability4",
+      "type": "keybind",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ability_4"
+    },
+    {
+      "name": "Baze",
+      "type": "command",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "baze"
+    },
+    {
+      "name": "BazeCommandExecuted",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "baze_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blaze",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blaze",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Quinnbot",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quinnbot"
+    },
+    {
+      "name": "Qbaicore",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qbaicore"
+    },
+    {
+      "name": "Ai",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ai"
+    },
+    {
+      "name": "Qbhead",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qbhead"
+    },
+    {
+      "name": "Qbh",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qbh"
+    },
+    {
+      "name": "Itemprinter",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "itemprinter"
+    },
+    {
+      "name": "Ip",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ip"
+    },
+    {
+      "name": "Qbchest",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qbchest"
+    },
+    {
+      "name": "Qbch",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qbch"
+    },
+    {
+      "name": "Qbpowersupply",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qbpowersupply"
+    },
+    {
+      "name": "Bbc",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bbc"
+    },
+    {
+      "name": "TazerLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tazer_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tazer",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tazer"
+    },
+    {
+      "name": "Taze",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "taze"
+    },
+    {
+      "name": "QbLowerrightarm",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qb_lowerrightarm"
+    },
+    {
+      "name": "Lra",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lra"
+    },
+    {
+      "name": "Moter",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moter"
+    },
+    {
+      "name": "QbLowerleftarm",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qb_lowerleftarm"
+    },
+    {
+      "name": "Lla",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lla"
+    },
+    {
+      "name": "Uperrightarm",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uperrightarm"
+    },
+    {
+      "name": "Uperleftarm",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uperleftarm"
+    },
+    {
+      "name": "Ura",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ura"
+    },
+    {
+      "name": "Ula",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ula"
+    },
+    {
+      "name": "Qbrightarm",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qbrightarm"
+    },
+    {
+      "name": "Qbleftarm",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qbleftarm"
+    },
+    {
+      "name": "La",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "la"
+    },
+    {
+      "name": "Ra",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ra"
+    },
+    {
+      "name": "Qblowerleftleg",
+      "type": "item",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qblowerleftleg"
+    },
+    {
+      "name": "Qblowerrightleg",
+      "type": "item",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qblowerrightleg"
+    },
+    {
+      "name": "QbUperrightleg",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qb_uperrightleg"
+    },
+    {
+      "name": "Qbuperleftleg",
+      "type": "item",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qbuperleftleg"
+    },
+    {
+      "name": "Qblegmid",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qblegmid"
+    },
+    {
+      "name": "Qblegs",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qblegs"
+    },
+    {
+      "name": "Qblegss",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qblegss"
+    },
+    {
+      "name": "Mid",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mid"
+    },
+    {
+      "name": "Moterrr",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moterrr"
+    },
+    {
+      "name": "Lrl",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lrl"
+    },
+    {
+      "name": "Lll",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lll"
+    },
+    {
+      "name": "Url",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "url"
+    },
+    {
+      "name": "Ull",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ull"
+    },
+    {
+      "name": "Qb",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qb"
     }
   ],
   "variable_elements": [],
@@ -487,28 +1192,81 @@
   "language_map": {
     "en_us": {
       "block.hat_smp.ender_concrete_powder": "Ender Concrete Powder",
+      "advancements.hatsmp_stuff.title": "HATSMP Stuff",
+      "advancements.dragonite_rules.descr": "Get a full set of Dragon Armor",
       "item.hat_smp.dragonarmor_chestplate": "Dragon Chestplate",
       "item.hat_smp.dragonarmor_boots": "Dragon Boots",
+      "key.hat_smp.ability1": "Ability1",
+      "item.hat_smp.qbpowersupply": "Qbpowersupply",
+      "advancements.hatsmp_stuff.descr": "The Beginnings...",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_chestplate": "Dragon chestplate",
       "item.hat_smp.dragonaxe": "Dragonaxe",
+      "gamerule.armorcorruption.description": "If you don\u0027t want the HAT armor to corrupt, disable this",
       "item.hat_smp.dragonpaste": "Dragonpaste",
       "block.hat_smp.dragonic_smithing_table": "Draconic Smithing Table",
-      "itemGroup.tabhatsmp": "HAT SMP",
       "item.hat_smp.dragonarmor_leggings": "Dragon Leggings",
+      "itemGroup.tabhatsmp": "HAT SMP",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_helmet": "Dragon Helmet",
+      "advancements.dragonite_rules.title": "Dragonite Rules!",
       "item.hat_smp.dragon_bowl": "Dragon Bowl",
+      "item.hat_smp.qblegmid": "Qblegmid",
+      "item.hat_smp.shovelshard": "shovelshard",
+      "item.hat_smp.qblowerleftleg": "Qblowerleftleg",
       "item.hat_smp.dragonhoe": "Dragonhoe",
       "block.hat_smp.dragoninfuser": "Draconic Smithing Table",
+      "advancements.weird_taste.title": "Weird Taste...",
+      "item.hat_smp.swordshard": "swordshard",
+      "item.hat_smp.primed_helmet": "Primed Helmet",
+      "item.hat_smp.hat_leggings": "HAT Leggings",
+      "block.hat_smp.quinnbot": "Quinnbot",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_leggings": "Dragon Leggings",
+      "item.hat_smp.hat_helmet": "Dragon Hat",
       "block.hat_smp_custom_items_and_blocks.dragoninfuser": "Draconic Smithing Table",
+      "item.hat_smp.qb_uperrightleg": "Qb Uperrightleg",
+      "item.hat_smp.primed_chestplate": "Primed Body",
+      "item.hat_smp.qb_lowerleftarm": "Qb Lowerleftarm",
+      "item.hat_smp.primed_boots": "Primed Boots",
+      "item.hat_smp.tazer": "Tazer",
       "item.hat_smp.dragonarmor_helmet": "Dragon Helmet",
+      "gamerule.armorcorruption": "Armor Corruption",
+      "item.hat_smp.ptimedp": "Ptimedp",
       "item.hat_smp.dragon_sword": "Dragon Sword",
       "item.hat_smp_custom_items_and_blocks.dragonpaste": "Dragonpaste",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_boots": "Dragon Boots",
+      "item.hat_smp.qblowerrightleg": "Qblowerrightleg",
+      "block.hat_smp.eggspliter": "Eggspliter",
       "advancements.dragon_smithing.title": "No dragon required!",
       "item.hat_smp.dragonpickaxe": "Dragonpickaxe",
+      "item.hat_smp.qbleftarm": "Qbleftarm",
+      "item.hat_smp.primed_leggings": "Primed Leggings",
+      "item.hat_smp.qbaicore": "Qbaicore",
+      "item.hat_smp.hat_chestplate": "HAT Chestplate",
+      "item.hat_smp.hatshard": "Hatshard",
+      "block.hat_smp.itemprinter": "Itemprinter",
       "item.hat_smp.dragonshovel": "Dragonshovel",
-      "advancements.dragon_smithing.descr": "Get a Draconic Smithing Table"
+      "item.hat_smp.primedsh": "Primedsh",
+      "item.hat_smp.hat_boots": "Hat Boots",
+      "item.hat_smp.chestshard": "chestshard",
+      "item.hat_smp.primeda": "Primeda",
+      "item.hat_smp.uperrightarm": "Uperrightarm",
+      "advancements.weird_taste.descr": "Get Dragon Paste",
+      "advancements.dragon_smithing.descr": "Get a Draconic Smithing Table",
+      "item.hat_smp.axeshard": "axeshard",
+      "item.hat_smp.legshard": "Legshard",
+      "item.hat_smp.qblegss": "Qblegss",
+      "item.hat_smp.bootshard": "bootshard",
+      "item.hat_smp.pickshard": "pickshard",
+      "item.hat_smp.moter": "Moter",
+      "item.hat_smp.uperleftarm": "Uperleftarm",
+      "key.hat_smp.ability_3": "Ability3",
+      "item.hat_smp.qbchest": "Qbchest",
+      "key.hat_smp.ability_2": "Ability2",
+      "key.hat_smp.ability_4": "Ability4",
+      "item.hat_smp.qbhead": "Qbhead",
+      "item.hat_smp.qbuperleftleg": "Qbuperleftleg",
+      "item.hat_smp.qbrightarm": "Qbrightarm",
+      "item.hat_smp.primeds": "Primeds",
+      "item.hat_smp.qb_lowerrightarm": "Qb Lowerrightarm"
     }
   },
   "foldersRoot": {

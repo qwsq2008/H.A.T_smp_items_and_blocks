@@ -1,13 +1,17 @@
 package net.mcreator.hatsmpcustomitemsandblocks.world;
 
-import net.mcreator.hatsmpcustomitemsandblocks.HatSmpMod;
+import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
+
+import net.minecraft.world.GameRules;
+
+import net.mcreator.hatsmpcustomitemsandblocks.HatSmpModElements;
+
+import java.lang.reflect.Method;
 
 @HatSmpModElements.ModElement.Tag
 public class ArmorcorruptionGameRule extends HatSmpModElements.ModElement {
-
 	public static final GameRules.RuleKey<GameRules.BooleanValue> gamerule = GameRules.register("armorcorruption", GameRules.Category.PLAYER,
 			create(false));
-
 	public ArmorcorruptionGameRule(HatSmpModElements instance) {
 		super(instance, 18);
 	}

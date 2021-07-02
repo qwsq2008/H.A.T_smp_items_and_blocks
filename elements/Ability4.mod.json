@@ -1,0 +1,12 @@
+{
+  "_fv": 18,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "NUMPAD4",
+    "keyBindingName": "Ability4",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "Apility4p"
+    }
+  }
+}
