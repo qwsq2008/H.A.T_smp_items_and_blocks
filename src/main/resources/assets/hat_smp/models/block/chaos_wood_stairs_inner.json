@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "hat_smp:blocks/chaoswood_planks",
+    "top": "hat_smp:blocks/chaoswood_planks",
+    "side": "hat_smp:blocks/chaoswood_planks"
+  }
+}

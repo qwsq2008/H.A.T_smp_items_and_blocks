@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_fence_gate_open",
+  "textures": {
+    "texture": "hat_smp:blocks/chaoswood_planks"
+  }
+}

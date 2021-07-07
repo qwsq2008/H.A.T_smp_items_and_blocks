@@ -1,21 +1,11 @@
 package net.mcreator.hatsmpcustomitemsandblocks.procedures;
 
-import net.minecraft.item.ItemStack;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.passive.TameableEntity;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.Entity;
-
-import net.mcreator.hatsmpcustomitemsandblocks.item.QbaicoreItem;
-import net.mcreator.hatsmpcustomitemsandblocks.HatSmpModElements;
-import net.mcreator.hatsmpcustomitemsandblocks.HatSmpMod;
-
-import java.util.Map;
-
 @HatSmpModElements.ModElement.Tag
 public class Quinnbotmk1RightClickedOnEntityProcedure extends HatSmpModElements.ModElement {
+
 	public Quinnbotmk1RightClickedOnEntityProcedure(HatSmpModElements instance) {
 		super(instance, 97);
+
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -29,8 +19,10 @@ public class Quinnbotmk1RightClickedOnEntityProcedure extends HatSmpModElements.
 				HatSmpMod.LOGGER.warn("Failed to load dependency sourceentity for procedure Quinnbotmk1RightClickedOnEntity!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
 		Entity sourceentity = (Entity) dependencies.get("sourceentity");
+
 		if ((((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY)
 				.getItem() == new ItemStack(QbaicoreItem.block, (int) (1)).getItem())) {
 			if ((entity instanceof TameableEntity) && (sourceentity instanceof PlayerEntity)) {
@@ -43,5 +35,7 @@ public class Quinnbotmk1RightClickedOnEntityProcedure extends HatSmpModElements.
 						((PlayerEntity) sourceentity).container.func_234641_j_());
 			}
 		}
+
 	}
+
 }

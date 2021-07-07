@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Blocks.END_STONE"
+      },
+      {
+        "value": "Blocks.END_STONE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.END_STONE"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.STONE_AXE"
+    },
+    "name": "use_end_stone_for_tools_3",
+    "namespace": "mod"
+  }
+}

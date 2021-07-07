@@ -8,23 +8,23 @@
   ],
   "key": {
     "1": {
-      "item": "hat_smp:qbhead"
+      "item": "hat_smp:deleted_mod_element"
     },
     "3": {
       "item": "hat_smp:qbrightarm"
     },
     "4": {
-      "item": "hat_smp:qbchest"
+      "item": "hat_smp:deleted_mod_element"
     },
     "5": {
       "item": "hat_smp:qbleftarm"
     },
     "7": {
-      "item": "hat_smp:qblegss"
+      "item": "hat_smp:deleted_mod_element"
     }
   },
   "result": {
-    "item": "hat_smp:quinnbot",
+    "item": "hat_smp:deleted_mod_element",
     "count": 1
   }
 }

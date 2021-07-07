@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hat_smp:blocks/chaos_ore",
+    "up": "hat_smp:blocks/chaos_ore",
+    "north": "hat_smp:blocks/chaos_ore",
+    "east": "hat_smp:blocks/chaos_ore",
+    "south": "hat_smp:blocks/chaos_ore",
+    "west": "hat_smp:blocks/chaos_ore",
+    "particle": "hat_smp:blocks/chaos_ore"
+  }
+}

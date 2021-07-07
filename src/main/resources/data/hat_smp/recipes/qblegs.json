@@ -7,23 +7,23 @@
   ],
   "key": {
     "0": {
-      "item": "hat_smp:qb_uperrightleg"
+      "item": "hat_smp:deleted_mod_element"
     },
     "1": {
       "item": "hat_smp:qblegmid"
     },
     "2": {
-      "item": "hat_smp:qbuperleftleg"
+      "item": "hat_smp:deleted_mod_element"
     },
     "3": {
-      "item": "hat_smp:qblowerrightleg"
+      "item": "hat_smp:deleted_mod_element"
     },
     "5": {
-      "item": "hat_smp:qblowerleftleg"
+      "item": "hat_smp:deleted_mod_element"
     }
   },
   "result": {
-    "item": "hat_smp:qblegss",
+    "item": "hat_smp:deleted_mod_element",
     "count": 1
   }
 }

@@ -20,7 +20,7 @@
       "item": "minecraft:redstone_lamp"
     },
     "4": {
-      "item": "hat_smp:qbaicore"
+      "item": "hat_smp:deleted_mod_element"
     },
     "5": {
       "item": "minecraft:redstone_lamp"
@@ -36,7 +36,7 @@
     }
   },
   "result": {
-    "item": "hat_smp:qbhead",
+    "item": "hat_smp:deleted_mod_element",
     "count": 1
   }
 }

@@ -1,0 +1,20 @@
+{
+  "group": "hat_smp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "hat_smp:chaos_wood_planks"
+    },
+    "1": {
+      "item": "hat_smp:chaos_wood_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:stick",
+    "count": 4
+  }
+}

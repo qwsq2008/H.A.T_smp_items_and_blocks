@@ -17,11 +17,11 @@
       "item": "minecraft:diamond"
     },
     "5": {
-      "item": "hat_smp:moter"
+      "item": "hat_smp:deleted_mod_element"
     }
   },
   "result": {
-    "item": "hat_smp:qb_uperrightleg",
+    "item": "hat_smp:deleted_mod_element",
     "count": 1
   }
 }

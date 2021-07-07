@@ -1,0 +1,26 @@
+{
+  "group": "hat_smp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "hat_smp:chaos_wood_log"
+    },
+    "1": {
+      "item": "hat_smp:chaos_wood_log"
+    },
+    "2": {
+      "item": "hat_smp:chaos_wood_log"
+    },
+    "3": {
+      "item": "hat_smp:chaos_wood_log"
+    }
+  },
+  "result": {
+    "item": "hat_smp:deleted_mod_element",
+    "count": 3
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "updatedprototexture",
+    "enableBody": true,
+    "textureBody": "updatedprototexture",
+    "enableLeggings": true,
+    "textureLeggings": "updatedprototexture",
+    "enableBoots": true,
+    "textureBoots": "updatedprototexture",
+    "onHelmetTick": {
+      "name": "NoFallDamageIron"
+    },
+    "onBootsTick": {
+      "name": "REALNoFallDamage"
+    },
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "da_temp",
+    "helmetName": "Iron Man Hacker Proto Test Helmet",
+    "bodyName": "Iron Man Hacker Proto Test Body",
+    "leggingsName": "Iron Man Hacker Proto Test Leggings",
+    "bootsName": "Iron Man Hacker Proto Test Boots",
+    "helmetSpecialInfo": [
+      "A helmet with a mask. Neat."
+    ],
+    "bodySpecialInfo": [
+      "Glowy Thing Go Brrrr"
+    ],
+    "leggingsSpecialInfo": [
+      "Flares are bright"
+    ],
+    "bootsSpecialInfo": [
+      "Jet thingies!"
+    ],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 100,
+    "damageValueHelmet": 4,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 4,
+    "enchantability": 0,
+    "toughness": 2.5,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hat_smp:blocks/di_botom_and_side",
+    "up": "hat_smp:blocks/di_botom_and_side",
+    "north": "hat_smp:blocks/di_botom_and_side",
+    "east": "hat_smp:blocks/di_botom_and_side",
+    "south": "hat_smp:blocks/di_botom_and_side",
+    "west": "hat_smp:blocks/di_botom_and_side",
+    "particle": "hat_smp:blocks/di_botom_and_side"
+  }
+}

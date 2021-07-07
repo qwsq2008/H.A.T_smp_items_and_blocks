@@ -1,0 +1,22 @@
+{
+  "group": "hat_smp",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "hat_smp:deleted_mod_element"
+    },
+    "1": {
+      "item": "hat_smp:deleted_mod_element"
+    },
+    "2": {
+      "item": "hat_smp:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "hat_smp:deleted_mod_element",
+    "count": 6
+  }
+}

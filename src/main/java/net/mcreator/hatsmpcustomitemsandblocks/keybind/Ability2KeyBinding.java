@@ -1,37 +1,17 @@
 
 package net.mcreator.hatsmpcustomitemsandblocks.keybind;
 
-import org.lwjgl.glfw.GLFW;
-
-import net.minecraftforge.fml.network.NetworkEvent;
-import net.minecraftforge.fml.client.registry.ClientRegistry;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.client.event.InputEvent;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.network.PacketBuffer;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.client.settings.KeyBinding;
-import net.minecraft.client.Minecraft;
-
-import net.mcreator.hatsmpcustomitemsandblocks.procedures.Ability2pProcedure;
-import net.mcreator.hatsmpcustomitemsandblocks.HatSmpModElements;
 import net.mcreator.hatsmpcustomitemsandblocks.HatSmpMod;
-
-import java.util.function.Supplier;
-import java.util.Map;
-import java.util.HashMap;
 
 @HatSmpModElements.ModElement.Tag
 public class Ability2KeyBinding extends HatSmpModElements.ModElement {
+
 	@OnlyIn(Dist.CLIENT)
 	private KeyBinding keys;
+
 	public Ability2KeyBinding(HatSmpModElements instance) {
 		super(instance, 48);
+
 		elements.addNetworkMessage(KeyBindingPressedMessage.class, KeyBindingPressedMessage::buffer, KeyBindingPressedMessage::new,
 				KeyBindingPressedMessage::handler);
 	}
@@ -52,12 +32,16 @@ public class Ability2KeyBinding extends HatSmpModElements.ModElement {
 				if (event.getAction() == GLFW.GLFW_PRESS) {
 					HatSmpMod.PACKET_HANDLER.sendToServer(new KeyBindingPressedMessage(0, 0));
 					pressAction(Minecraft.getInstance().player, 0, 0);
+
 				}
 			}
 		}
 	}
+
 	public static class KeyBindingPressedMessage {
+
 		int type, pressedms;
+
 		public KeyBindingPressedMessage(int type, int pressedms) {
 			this.type = type;
 			this.pressedms = pressedms;
@@ -80,25 +64,33 @@ public class Ability2KeyBinding extends HatSmpModElements.ModElement {
 			});
 			context.setPacketHandled(true);
 		}
+
 	}
+
 	private static void pressAction(PlayerEntity entity, int type, int pressedms) {
 		World world = entity.world;
 		double x = entity.getPosX();
 		double y = entity.getPosY();
 		double z = entity.getPosZ();
+
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+
 		if (type == 0) {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
+
 				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
+
 				Ability2pProcedure.executeProcedure($_dependencies);
 			}
 		}
+
 	}
+
 }
