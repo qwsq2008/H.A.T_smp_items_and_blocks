@@ -1185,6 +1185,65 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "qb"
+    },
+    {
+      "name": "Quinnbotmk1RightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quinnbotmk_1_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Quinnbotmk1",
+      "type": "mob",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quinnbotmk_1"
+    },
+    {
+      "name": "QuinnbotOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quinnbot_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1236,6 +1295,7 @@
       "item.hat_smp.qblowerrightleg": "Qblowerrightleg",
       "block.hat_smp.eggspliter": "Eggspliter",
       "advancements.dragon_smithing.title": "No dragon required!",
+      "item.hat_smp.quinnbotmk_1_spawn_egg": "Quinn bot-mk1 Spawn Egg",
       "item.hat_smp.dragonpickaxe": "Dragonpickaxe",
       "item.hat_smp.qbleftarm": "Qbleftarm",
       "item.hat_smp.primed_leggings": "Primed Leggings",
@@ -1262,6 +1322,7 @@
       "item.hat_smp.qbchest": "Qbchest",
       "key.hat_smp.ability_2": "Ability2",
       "key.hat_smp.ability_4": "Ability4",
+      "entity.hat_smp.quinnbotmk_1": "Quinn bot-mk1",
       "item.hat_smp.qbhead": "Qbhead",
       "item.hat_smp.qbuperleftleg": "Qbuperleftleg",
       "item.hat_smp.qbrightarm": "Qbrightarm",
