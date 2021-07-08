@@ -4,10 +4,10 @@
   "definition": {
     "name": "Chaotic Biome",
     "groundBlock": {
-      "value": "Blocks.NETHERRACK"
+      "value": "Blocks.GRASS_PATH"
     },
     "undergroundBlock": {
-      "value": "Blocks.END_STONE"
+      "value": "Blocks.MYCELIUM"
     },
     "airColor": {
       "value": -10092544,
