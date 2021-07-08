@@ -314,7 +314,7 @@
       "name": "ChaosFuelItem",
       "type": "item",
       "sortid": 30,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "chaos_fuel_item"
@@ -371,7 +371,7 @@
       "name": "RawChaos",
       "type": "item",
       "sortid": 20,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "raw_chaos"
@@ -793,7 +793,7 @@
       "name": "ChaosIngot",
       "type": "item",
       "sortid": 21,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "chaos_ingot"
@@ -1132,7 +1132,7 @@
       "name": "Qblowerrightleg",
       "type": "item",
       "sortid": 84,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "qblowerrightleg"
@@ -1176,7 +1176,7 @@
       "name": "Ptimedp",
       "type": "item",
       "sortid": 24,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "ptimedp"
@@ -1290,7 +1290,7 @@
       "name": "Qbchest",
       "type": "item",
       "sortid": 64,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "qbchest"
@@ -1308,7 +1308,7 @@
       "name": "Hatshard",
       "type": "item",
       "sortid": 32,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "hatshard"
@@ -1387,7 +1387,7 @@
       "name": "Swordshard",
       "type": "item",
       "sortid": 28,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "swordshard"
@@ -1450,7 +1450,7 @@
       "name": "Primeds",
       "type": "item",
       "sortid": 21,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "primeds"
@@ -1590,7 +1590,7 @@
       "name": "Uperleftarm",
       "type": "item",
       "sortid": 76,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "uperleftarm"
@@ -1812,10 +1812,69 @@
       "name": "Qbuperleftleg",
       "type": "item",
       "sortid": 86,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "qbuperleftleg"
+    },
+    {
+      "name": "Quinnbotmk1RightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quinnbotmk_1_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Quinnbotmk1",
+      "type": "mob",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quinnbotmk_1"
+    },
+    {
+      "name": "QuinnbotOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quinnbot_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1826,18 +1885,12 @@
       "advancements.hatsmp_stuff.title": "HATSMP Stuff",
       "advancements.dragonite_rules.descr": "Get a full set of Dragon Armor",
       "item.hat_smp.dragonarmor_chestplate": "Dragon Chestplate",
-      "advancements.what_is_happening.descr": "Go see some chaos!",
       "item.hat_smp.dragonarmor_boots": "Dragon Boots",
-      "block.hat_smp.chaos_wood_planks": "ChaosWood Planks",
-      "advancements.what_is_happening.title": "What Is Happening?",
       "advancements.hatsmp_stuff.descr": "The Beginnings...",
-      "block.hat_smp.chaos_wood_leaves": "ChaosWood Leaves",
-      "block.hat_smp.chaos_crafting_table": "Chaos Crafting Table",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_chestplate": "Dragon chestplate",
       "gamerule.armorcorruption.description": "If you don\u0027t want the HAT armor to corrupt, disable this",
       "item.hat_smp.dragonaxe": "Dragonaxe",
       "item.hat_smp.dragonpaste": "Dragonpaste",
-      "item.hat_smp.chaos_dimension": "DO NOT USE!!",
       "block.hat_smp.dragonic_smithing_table": "Draconic Smithing Table",
       "itemGroup.tabhatsmp": "HAT SMP",
       "item.hat_smp.dragonarmor_leggings": "Dragon Leggings",
@@ -1846,46 +1899,30 @@
       "advancements.dragonite_rules.title": "Dragonite Rules!",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_helmet": "Dragon Helmet",
       "item.hat_smp.dragon_bowl": "Dragon Bowl",
-      "block.hat_smp.chaos_wood_stairs": "ChaosWood Stairs",
       "item.hat_smp.iron_man_hacker_proto_test_leggings": "Iron Man Hacker Proto Test Leggings",
       "item.hat_smp.dragonhoe": "Dragonhoe",
       "block.hat_smp.dragoninfuser": "Draconic Smithing Table",
-      "item.hat_smp.chaos_fuel_item": "Chaos Fuel Item",
-      "block.hat_smp.chaos_wood_wood": "ChaosWood Wood",
       "advancements.weird_taste.title": "Weird Taste...",
       "item.hat_smp.hat_leggings": "HAT Leggings",
+      "block.hat_smp.quinnbot": "Quinnbot",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_leggings": "Dragon Leggings",
       "item.hat_smp.hat_helmet": "Dragon Hat",
       "item.hat_smp.iron_man_hacker_proto_test_chestplate": "Iron Man Hacker Proto Test Body",
-      "block.hat_smp.chaos_wood_fence": "ChaosWood Fence",
       "block.hat_smp_custom_items_and_blocks.dragoninfuser": "Draconic Smithing Table",
-      "block.hat_smp.chaos_wood_slab": "ChaosWood Slab",
       "item.hat_smp.dragonarmor_helmet": "Dragon Helmet",
       "gamerule.armorcorruption": "Armor Corruption",
-      "advancements.campaign_for_disarmment.descr": "Support our campaign!",
       "item.hat_smp.dragon_sword": "Dragon Sword",
-      "item.hat_smp.raw_chaos": "Raw Chaos",
       "item.hat_smp_custom_items_and_blocks.dragonpaste": "Dragonpaste",
       "item.hat_smp_custom_items_and_blocks.dragonarmor_boots": "Dragon Boots",
       "advancements.dragon_smithing.title": "No dragon required!",
       "key.hat_smp.blastem": "Blast em",
-      "block.hat_smp.chaos_ore": "Chaos Ore",
       "item.hat_smp.dragonpickaxe": "Dragonpickaxe",
-      "block.hat_smp.proto_chaos_teleporter": "Chaos Teleporter",
-      "block.hat_smp.chaos_wood_log": "ChaosWood Log",
-      "key.hat_smp.space_fly": "IronLaunch",
       "item.hat_smp.hat_chestplate": "HAT Chestplate",
       "item.hat_smp.dragonshovel": "Dragonshovel",
       "item.hat_smp.hat_boots": "Hat Boots",
-      "biome.hat_smp.chaotic_biome": "Chaotic Biome",
       "advancements.weird_taste.descr": "Get Dragon Paste",
       "advancements.dragon_smithing.descr": "Get a Draconic Smithing Table",
-      "block.hat_smp.chaos_dirt": "Chaos Dirt",
-      "enchantment.hat_smp.test_enchant": "Test Enchant",
-      "block.hat_smp.chaos_wood_fence_gate": "ChaosWood Fence Gate",
       "item.hat_smp.iron_man_hacker_proto_test_boots": "Iron Man Hacker Proto Test Boots",
-      "item.hat_smp.chaos_ingot": "Chaos Ingot",
-      "advancements.campaign_for_disarmment.title": "Campaign For Disarmment",
       "item.hat_smp.lasers": "TemporaryGauntlet"
     }
   },

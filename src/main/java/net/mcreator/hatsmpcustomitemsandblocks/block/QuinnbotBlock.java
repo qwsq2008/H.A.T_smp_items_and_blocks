@@ -72,6 +72,30 @@ public class QuinnbotBlock extends HatSmpModElements.ModElement {
 			return Collections.singletonList(new ItemStack(this, 1));
 		}
 
+		@Override
+		public ActionResultType onBlockActivated(BlockState state, World world, BlockPos pos, PlayerEntity entity, Hand hand,
+				BlockRayTraceResult hit) {
+			super.onBlockActivated(state, world, pos, entity, hand, hit);
+
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+
+			Direction direction = hit.getFace();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+
+				QuinnbotOnBlockRightClickedProcedure.executeProcedure($_dependencies);
+			}
+
+			return ActionResultType.SUCCESS;
+		}
+
 	}
 
 }

@@ -36,7 +36,7 @@
       },
       "biomes": [
         {
-          "biome": "hat_smp:chaotic_biome",
+          "biome": "hat_smp:deleted_mod_element",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
