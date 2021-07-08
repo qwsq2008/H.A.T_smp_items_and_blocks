@@ -1,11 +1,30 @@
 package net.mcreator.hatsmpcustomitemsandblocks.procedures;
 
+import net.minecraft.world.server.ServerWorld;
+import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
+import net.minecraft.world.Explosion;
+import net.minecraft.util.registry.Registry;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.RegistryKey;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.network.play.server.SPlayerAbilitiesPacket;
+import net.minecraft.network.play.server.SPlaySoundEventPacket;
+import net.minecraft.network.play.server.SPlayEntityEffectPacket;
+import net.minecraft.network.play.server.SChangeGameStatePacket;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.hatsmpcustomitemsandblocks.HatSmpModElements;
+import net.mcreator.hatsmpcustomitemsandblocks.HatSmpMod;
+
+import java.util.Map;
+
 @HatSmpModElements.ModElement.Tag
 public class ChaosTeleportStuffProcedure extends HatSmpModElements.ModElement {
-
 	public ChaosTeleportStuffProcedure(HatSmpModElements instance) {
 		super(instance, 34);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -34,13 +53,11 @@ public class ChaosTeleportStuffProcedure extends HatSmpModElements.ModElement {
 				HatSmpMod.LOGGER.warn("Failed to load dependency world for procedure ChaosTeleportStuff!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		if (((Math.random() < 0.99)
 				&& (((world instanceof World) ? ((World) world).getRedstonePowerFromNeighbors(new BlockPos((int) x, (int) y, (int) z)) : 0) > 7))) {
 			{
@@ -48,7 +65,6 @@ public class ChaosTeleportStuffProcedure extends HatSmpModElements.ModElement {
 				if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
 					RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY,
 							new ResourceLocation("hat_smp:chaos_dimension"));
-
 					ServerWorld nextWorld = _ent.getServer().getWorld(destinationType);
 					if (nextWorld != null) {
 						((ServerPlayerEntity) _ent).connection.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));
@@ -67,7 +83,5 @@ public class ChaosTeleportStuffProcedure extends HatSmpModElements.ModElement {
 		if (world instanceof World && !((World) world).isRemote) {
 			((World) world).createExplosion(null, (int) x, (int) y, (int) z, (float) 5, Explosion.Mode.BREAK);
 		}
-
 	}
-
 }

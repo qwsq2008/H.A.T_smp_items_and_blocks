@@ -1,11 +1,22 @@
 package net.mcreator.hatsmpcustomitemsandblocks.procedures;
 
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.hatsmpcustomitemsandblocks.item.LasersItem;
+import net.mcreator.hatsmpcustomitemsandblocks.item.IronManHackerProtoTestItem;
+import net.mcreator.hatsmpcustomitemsandblocks.HatSmpModElements;
+import net.mcreator.hatsmpcustomitemsandblocks.HatSmpMod;
+
+import java.util.Random;
+import java.util.Map;
+
 @HatSmpModElements.ModElement.Tag
 public class BlasterProcedure extends HatSmpModElements.ModElement {
-
 	public BlasterProcedure(HatSmpModElements instance) {
 		super(instance, 65);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -14,9 +25,7 @@ public class BlasterProcedure extends HatSmpModElements.ModElement {
 				HatSmpMod.LOGGER.warn("Failed to load dependency entity for procedure Blaster!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
-
 		boolean found = false;
 		double sx = 0;
 		double sy = 0;
@@ -33,7 +42,5 @@ public class BlasterProcedure extends HatSmpModElements.ModElement {
 				}
 			}
 		}
-
 	}
-
 }
