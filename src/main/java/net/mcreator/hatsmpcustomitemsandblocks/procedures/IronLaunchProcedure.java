@@ -36,7 +36,7 @@ public class IronLaunchProcedure extends HatSmpModElements.ModElement {
 						? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(IronManHackerProtoTestItem.boots, (int) (1)))
 						: false))) {
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.LEVITATION, (int) 1, (int) 5, (true), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.LEVITATION, (int) 20, (int) 5, (true), (false)));
 		}
 	}
 }

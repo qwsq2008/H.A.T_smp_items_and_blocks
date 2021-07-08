@@ -39,7 +39,7 @@ public class SpaceFlyKeyBinding extends HatSmpModElements.ModElement {
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public void initElements() {
-		keys = new KeyBinding("key.hat_smp.space_fly", GLFW.GLFW_KEY_SPACE, "key.categories.movement");
+		keys = new KeyBinding("key.hat_smp.space_fly", GLFW.GLFW_KEY_Z, "key.categories.movement");
 		ClientRegistry.registerKeyBinding(keys);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
