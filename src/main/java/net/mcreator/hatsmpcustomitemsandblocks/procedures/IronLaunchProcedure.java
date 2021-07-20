@@ -1,7 +1,5 @@
 package net.mcreator.hatsmpcustomitemsandblocks.procedures;
 
-import net.minecraft.potion.Effects;
-import net.minecraft.potion.EffectInstance;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
@@ -35,8 +33,10 @@ public class IronLaunchProcedure extends HatSmpModElements.ModElement {
 				&& ((entity instanceof PlayerEntity)
 						? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(IronManHackerProtoTestItem.boots, (int) (1)))
 						: false))) {
-			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.LEVITATION, (int) 20, (int) 5, (true), (false)));
+			if (entity instanceof PlayerEntity) {
+				((PlayerEntity) entity).abilities.isFlying = (true);
+				((PlayerEntity) entity).sendPlayerAbilities();
+			}
 		}
 	}
 }

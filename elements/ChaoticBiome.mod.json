@@ -4,10 +4,10 @@
   "definition": {
     "name": "Chaotic Biome",
     "groundBlock": {
-      "value": "Blocks.GRASS_PATH"
+      "value": "Blocks.GRASS"
     },
     "undergroundBlock": {
-      "value": "Blocks.MYCELIUM"
+      "value": "Blocks.DIRT#0"
     },
     "airColor": {
       "value": -10092544,
@@ -44,7 +44,7 @@
     "moodSoundDelay": 6000,
     "spawnParticles": true,
     "particleToSpawn": {
-      "value": "WATER_BUBBLE"
+      "value": "SMOKE_NORMAL"
     },
     "particlesProbability": 0.5,
     "biomeCategory": "NETHER",
@@ -139,6 +139,15 @@
         "maxGroup": 5,
         "weight": 7,
         "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityCreeper"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 8,
+        "spawnType": "monster"
       }
     ]
   }
