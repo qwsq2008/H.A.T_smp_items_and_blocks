@@ -314,7 +314,7 @@
       "name": "ChaosFuelItem",
       "type": "item",
       "sortid": 30,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "chaos_fuel_item"
@@ -371,7 +371,7 @@
       "name": "RawChaos",
       "type": "item",
       "sortid": 20,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "raw_chaos"
@@ -793,7 +793,7 @@
       "name": "ChaosIngot",
       "type": "item",
       "sortid": 21,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "chaos_ingot"
@@ -1132,7 +1132,7 @@
       "name": "Qblowerrightleg",
       "type": "item",
       "sortid": 84,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "qblowerrightleg"
@@ -1176,7 +1176,7 @@
       "name": "Ptimedp",
       "type": "item",
       "sortid": 24,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "ptimedp"
@@ -1290,7 +1290,7 @@
       "name": "Qbchest",
       "type": "item",
       "sortid": 64,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "qbchest"
@@ -1308,7 +1308,7 @@
       "name": "Hatshard",
       "type": "item",
       "sortid": 32,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "hatshard"
@@ -1387,7 +1387,7 @@
       "name": "Swordshard",
       "type": "item",
       "sortid": 28,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "swordshard"
@@ -1450,7 +1450,7 @@
       "name": "Primeds",
       "type": "item",
       "sortid": 21,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "primeds"
@@ -1590,7 +1590,7 @@
       "name": "Uperleftarm",
       "type": "item",
       "sortid": 76,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "uperleftarm"
@@ -1812,7 +1812,7 @@
       "name": "Qbuperleftleg",
       "type": "item",
       "sortid": 86,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "qbuperleftleg"

@@ -1,24 +1,31 @@
 
 package net.mcreator.hatsmpcustomitemsandblocks.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.item.Rarity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.hatsmpcustomitemsandblocks.HatSmpModElements;
+
 @HatSmpModElements.ModElement.Tag
 public class ChestshardItem extends HatSmpModElements.ModElement {
-
 	@ObjectHolder("hat_smp:chestshard")
 	public static final Item block = null;
-
 	public ChestshardItem(HatSmpModElements instance) {
 		super(instance, 26);
-
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("chestshard");
@@ -44,7 +51,5 @@ public class ChestshardItem extends HatSmpModElements.ModElement {
 		public boolean hasEffect(ItemStack itemstack) {
 			return true;
 		}
-
 	}
-
 }

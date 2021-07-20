@@ -1,11 +1,26 @@
 package net.mcreator.hatsmpcustomitemsandblocks.procedures;
 
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
+import net.minecraftforge.common.MinecraftForge;
+
+import net.minecraft.world.IWorld;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.hatsmpcustomitemsandblocks.HatSmpModElements;
+import net.mcreator.hatsmpcustomitemsandblocks.HatSmpMod;
+
+import java.util.Map;
+import java.util.HashMap;
+
 @HatSmpModElements.ModElement.Tag
 public class BlockStuffProcedure extends HatSmpModElements.ModElement {
-
 	public BlockStuffProcedure(HatSmpModElements instance) {
 		super(instance, 39);
-
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -15,16 +30,13 @@ public class BlockStuffProcedure extends HatSmpModElements.ModElement {
 				HatSmpMod.LOGGER.warn("Failed to load dependency entity for procedure BlockStuff!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
-
 		if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem() instanceof SwordItem)) {
 			if (entity instanceof PlayerEntity) {
 				((PlayerEntity) entity).abilities.disableDamage = (true);
 				((PlayerEntity) entity).sendPlayerAbilities();
 			}
 		}
-
 	}
 
 	@SubscribeEvent
@@ -46,5 +58,4 @@ public class BlockStuffProcedure extends HatSmpModElements.ModElement {
 		dependencies.put("event", event);
 		this.executeProcedure(dependencies);
 	}
-
 }
