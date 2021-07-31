@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "hat_smp:iron_man_hacker_proto_test_helmet"
+    },
+    "title": {
+      "translate": "advancements.the_man_of_iron.title"
+    },
+    "description": {
+      "translate": "advancements.the_man_of_iron.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_man_of_iron": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 17
+  },
+  "parent": "hat_smp:dragonite_rules"
+}

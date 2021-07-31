@@ -1,6 +1,6 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
+    "background": "hat_smp:textures/tekno_palet.png",
     "icon": {
       "item": "hat_smp:ender_concrete_powder"
     },
